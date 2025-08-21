@@ -1,0 +1,501 @@
+id,category,title,description,price,url
+1,Tech,Laptop Sleeve,Travel‑Friendly laptop sleeve with ABS housing. active noise cancellation. Bluetooth 5.3.,326.06,https://example.com/tech/laptop-sleeve/1
+2,Fashion,Flowy Maxi Dress,Elevated flowy maxi dress in forest vegan leather. slim fit. mother-of-pearl buttons. Available in One size.,220.86,https://example.com/fashion/flowy-maxi-dress/2
+3,Home,LED Floor Lamp,Minimalist led floor lamp crafted from bamboo in rose. soft-touch dimmer.,353.39,https://example.com/home/led-floor-lamp/3
+4,Fashion,Silk Blouse,Versatile silk blouse in forest merino wool. tailored fit. hidden interior pocket. Available in XS–XL.,165.37,https://example.com/fashion/silk-blouse/4
+5,Fashion,Polo Shirt,Compact polo shirt in sand merino wool. boxy cut. breathable weave. Available in S–L.,185.73,https://example.com/fashion/polo-shirt/5
+6,Home,Percale Sheet Set,Compact percale sheet set crafted from rattan in sand. tool-free assembly.,331.68,https://example.com/home/percale-sheet-set/6
+7,Tech,Smartphone Stand,Elevated smartphone stand with silicone housing. gesture controls. Bluetooth 5.3.,737.35,https://example.com/tech/smartphone-stand/7
+8,Home,Percale Sheet Set,Everyday percale sheet set crafted from oak wood in rose. dishwasher safe.,559.8,https://example.com/home/percale-sheet-set/8
+9,Home,Throw Blanket,Versatile throw blanket crafted from cast iron in gold. heat-resistant up to 450°F.,120.48,https://example.com/home/throw-blanket/9
+10,Home,Cookware Set,Versatile cookware set crafted from stoneware in sand. dishwasher safe.,116.78,https://example.com/home/cookware-set/10
+11,Fashion,Silk Blouse,Travel‑Friendly silk blouse in white organic cotton. oversized. breathable weave. Available in 14-inch.,122.43,https://example.com/fashion/silk-blouse/11
+12,Fashion,Puffer Jacket,Lightweight puffer jacket in charcoal denim. relaxed fit. double-lined. Available in 14-inch.,89.87,https://example.com/fashion/puffer-jacket/12
+13,Tech,USB-C Charger,Travel‑Friendly usb-c charger with nylon housing. up to 20h battery. gesture controls.,677.54,https://example.com/tech/usb-c-charger/13
+14,Fashion,Trench Coat,Minimalist trench coat in silver cotton. oversized. removable belt. Available in One size.,228.21,https://example.com/fashion/trench-coat/14
+15,Fashion,Leather Tote Bag,Minimalist leather tote bag in charcoal denim. boxy cut. side zip. Available in 14-inch.,306.97,https://example.com/fashion/leather-tote-bag/15
+16,Home,Ceramic Vase,Minimalist ceramic vase crafted from cotton in gold. tool-free assembly.,572.07,https://example.com/home/ceramic-vase/16
+17,Home,Hand-Tufted Wool Rug,Versatile hand-tufted wool rug crafted from stoneware in sky blue. soft-touch dimmer.,301.07,https://example.com/home/hand-tufted-wool-rug/17
+18,Fashion,Linen Summer Dress,Premium linen summer dress in black cotton. tailored fit. mother-of-pearl buttons. Available in One size.,92.44,https://example.com/fashion/linen-summer-dress/18
+19,Fashion,Athletic Leggings,Everyday athletic leggings in navy denim. oversized. contrast stitching. Available in 15-inch.,152.86,https://example.com/fashion/athletic-leggings/19
+20,Home,Bamboo Cutting Board,Versatile bamboo cutting board crafted from wool in silver. dishwasher safe.,345.72,https://example.com/home/bamboo-cutting-board/20
+21,Fashion,Cashmere Scarf,Elevated cashmere scarf in olive cashmere. relaxed fit. side zip. Available in S–L.,238.98,https://example.com/fashion/cashmere-scarf/21
+22,Fashion,Chino Pants,Travel‑Friendly chino pants in white silk. tailored fit. side zip. Available in Medium.,160.92,https://example.com/fashion/chino-pants/22
+23,Fashion,Merino Crewneck,Elevated merino crewneck in rose cashmere. relaxed fit. stretch panel at back. Available in 15-inch.,187.35,https://example.com/fashion/merino-crewneck/23
+24,Fashion,Puffer Jacket,Premium puffer jacket in charcoal vegan leather. tailored fit. mother-of-pearl buttons. Available in XS–XL.,257.25,https://example.com/fashion/puffer-jacket/24
+25,Fashion,Chelsea Boots,Minimalist chelsea boots in white vegan leather. slim fit. side zip. Available in One size.,172.03,https://example.com/fashion/chelsea-boots/25
+26,Fashion,Wrap Skirt,Elevated wrap skirt in sand merino wool. boxy cut. machine washable. Available in 14-inch.,83.52,https://example.com/fashion/wrap-skirt/26
+27,Home,Bamboo Cutting Board,Travel‑Friendly bamboo cutting board crafted from wool in silver. heat-resistant up to 450°F.,347.93,https://example.com/home/bamboo-cutting-board/27
+28,Tech,Gaming Mouse,Compact gaming mouse with aluminum housing. USB‑C charging. gesture controls.,641.81,https://example.com/tech/gaming-mouse/28
+29,Fashion,High-Rise Jeans,Elevated high-rise jeans in cream merino wool. slim fit. contrast stitching. Available in Large.,100.57,https://example.com/fashion/high-rise-jeans/29
+30,Fashion,Chelsea Boots,Travel‑Friendly chelsea boots in cream cotton. boxy cut. breathable weave. Available in Small.,40.46,https://example.com/fashion/chelsea-boots/30
+31,Home,Hand-Tufted Wool Rug,Compact hand-tufted wool rug crafted from bamboo in forest. soft-touch dimmer.,150.41,https://example.com/home/hand-tufted-wool-rug/31
+32,Fashion,Ribbed Tank,Everyday ribbed tank in charcoal silk. boxy cut. removable belt. Available in One size.,122.37,https://example.com/fashion/ribbed-tank/32
+33,Fashion,Loafer,Compact loafer in gold linen. oversized. side zip. Available in S–L.,279.84,https://example.com/fashion/loafer/33
+34,Tech,Laptop Sleeve,Everyday laptop sleeve with polycarbonate housing. sleep mode after 10 min. fold-flat hinges.,463.38,https://example.com/tech/laptop-sleeve/34
+35,Fashion,Loafer,Versatile loafer in sand denim. relaxed fit. hidden interior pocket. Available in 14-inch.,277.22,https://example.com/fashion/loafer/35
+36,Fashion,Flowy Maxi Dress,Everyday flowy maxi dress in navy organic cotton. oversized. mother-of-pearl buttons. Available in Small.,188.5,https://example.com/fashion/flowy-maxi-dress/36
+37,Home,Ceramic Vase,Premium ceramic vase crafted from oak wood in charcoal. soft-touch dimmer.,316.27,https://example.com/home/ceramic-vase/37
+38,Tech,Tablet Stylus,Compact tablet stylus with nylon housing. fold-flat hinges. multi‑device pairing.,468.85,https://example.com/tech/tablet-stylus/38
+39,Fashion,Wool Overshirt,Minimalist wool overshirt in white linen. tailored fit. removable belt. Available in Small.,115.72,https://example.com/fashion/wool-overshirt/39
+40,Tech,Gaming Mouse,Lightweight gaming mouse with nylon housing. sleep mode after 10 min. fold-flat hinges.,445.91,https://example.com/tech/gaming-mouse/40
+41,Fashion,Cashmere Scarf,Travel‑Friendly cashmere scarf in sand merino wool. oversized. machine washable. Available in 13-inch.,347.09,https://example.com/fashion/cashmere-scarf/41
+42,Tech,Smart Home Hub,Elevated smart home hub with polycarbonate housing. active noise cancellation. multi‑device pairing.,445.08,https://example.com/tech/smart-home-hub/42
+43,Fashion,Puffer Jacket,Premium puffer jacket in sand cashmere. relaxed fit. double-lined. Available in Medium.,272.17,https://example.com/fashion/puffer-jacket/43
+44,Fashion,Linen Summer Dress,Compact linen summer dress in terracotta suede. boxy cut. hidden interior pocket. Available in 14-inch.,273.2,https://example.com/fashion/linen-summer-dress/44
+45,Fashion,High-Rise Jeans,Elevated high-rise jeans in sand silk. tailored fit. removable belt. Available in 13-inch.,171.24,https://example.com/fashion/high-rise-jeans/45
+46,Fashion,Sports Bra,Travel‑Friendly sports bra in black cashmere. slim fit. mother-of-pearl buttons. Available in Medium.,99.93,https://example.com/fashion/sports-bra/46
+47,Tech,Tablet Stylus,Travel‑Friendly tablet stylus with aluminum housing. USB‑C charging. fold-flat hinges.,354.49,https://example.com/tech/tablet-stylus/47
+48,Tech,Portable SSD,Minimalist portable ssd with ABS housing. USB‑C charging. sleep mode after 10 min.,595.39,https://example.com/tech/portable-ssd/48
+49,Home,Bath Towel Set,Versatile bath towel set crafted from bamboo in black. tool-free assembly.,399.13,https://example.com/home/bath-towel-set/49
+50,Fashion,Athletic Leggings,Travel‑Friendly athletic leggings in forest cotton. slim fit. breathable weave. Available in 14-inch.,109.21,https://example.com/fashion/athletic-leggings/50
+51,Tech,Tablet Stylus,Premium tablet stylus with ABS housing. low‑latency mode. fold-flat hinges.,702.98,https://example.com/tech/tablet-stylus/51
+52,Tech,Foldable Phone Stand,Versatile foldable phone stand with ABS housing. sleep mode after 10 min. gesture controls.,49.98,https://example.com/tech/foldable-phone-stand/52
+53,Fashion,Flowy Maxi Dress,Lightweight flowy maxi dress in charcoal cotton. boxy cut. double-lined. Available in 15-inch.,114.1,https://example.com/fashion/flowy-maxi-dress/53
+54,Home,Espresso Machine,Versatile espresso machine crafted from stainless steel in sand. soft-touch dimmer.,520.08,https://example.com/home/espresso-machine/54
+55,Fashion,Classic Leather Sneakers,Everyday classic leather sneakers in rose organic cotton. tailored fit. stretch panel at back. Available in One size.,57.83,https://example.com/fashion/classic-leather-sneakers/55
+56,Home,Storage Basket,Elevated storage basket crafted from stoneware in beige. matte glaze.,521.87,https://example.com/home/storage-basket/56
+57,Home,Electric Kettle,Elevated electric kettle crafted from hand-blown glass in gold. reversible.,88.08,https://example.com/home/electric-kettle/57
+58,Home,Cookware Set,Versatile cookware set crafted from stoneware in black. matte glaze.,490.9,https://example.com/home/cookware-set/58
+59,Fashion,Polo Shirt,Compact polo shirt in charcoal merino wool. boxy cut. hidden interior pocket. Available in 15-inch.,97.16,https://example.com/fashion/polo-shirt/59
+60,Tech,4K Webcam,Elevated 4k webcam with aluminum housing. Bluetooth 5.3. multi‑device pairing.,596.65,https://example.com/tech/4k-webcam/60
+61,Home,Hand-Tufted Wool Rug,Premium hand-tufted wool rug crafted from cast iron in cream. matte glaze.,419.7,https://example.com/home/hand-tufted-wool-rug/61
+62,Tech,Drone Camera,Travel‑Friendly drone camera with nylon housing. Bluetooth 5.3. gesture controls.,692.31,https://example.com/tech/drone-camera/62
+63,Fashion,Merino Crewneck,Elevated merino crewneck in silver suede. relaxed fit. contrast stitching. Available in Medium.,225.28,https://example.com/fashion/merino-crewneck/63
+64,Home,Dining Chair,Elevated dining chair crafted from walnut in olive. dishwasher safe.,268.34,https://example.com/home/dining-chair/64
+65,Fashion,Polo Shirt,Everyday polo shirt in silver merino wool. tailored fit. mother-of-pearl buttons. Available in Large.,227.17,https://example.com/fashion/polo-shirt/65
+66,Tech,Smartphone Stand,Everyday smartphone stand with aluminum housing. gesture controls. up to 20h battery.,633.26,https://example.com/tech/smartphone-stand/66
+67,Tech,4K Webcam,Elevated 4k webcam with aluminum housing. gesture controls. up to 20h battery.,655.49,https://example.com/tech/4k-webcam/67
+68,Tech,Mechanical Keyboard,Everyday mechanical keyboard with ABS housing. multi‑device pairing. Bluetooth 5.3.,649.22,https://example.com/tech/mechanical-keyboard/68
+69,Tech,Bluetooth Speaker,Everyday bluetooth speaker with aluminum housing. multi‑device pairing. USB‑C charging.,466.81,https://example.com/tech/bluetooth-speaker/69
+70,Tech,Mechanical Keyboard,Compact mechanical keyboard with polycarbonate housing. up to 20h battery. multi‑device pairing.,437.52,https://example.com/tech/mechanical-keyboard/70
+71,Tech,Action Camera,Everyday action camera with aluminum housing. up to 20h battery. sleep mode after 10 min.,487.56,https://example.com/tech/action-camera/71
+72,Tech,Wireless Earbuds,Premium wireless earbuds with polycarbonate housing. active noise cancellation. sleep mode after 10 min.,155.49,https://example.com/tech/wireless-earbuds/72
+73,Home,Bath Towel Set,Premium bath towel set crafted from hand-blown glass in navy. fingerprint-resistant.,587.82,https://example.com/home/bath-towel-set/73
+74,Home,Aroma Diffuser,Premium aroma diffuser crafted from stainless steel in sky blue. modular design.,189.73,https://example.com/home/aroma-diffuser/74
+75,Home,Down Pillow,Versatile down pillow crafted from bamboo in silver. non-slip feet.,352.19,https://example.com/home/down-pillow/75
+76,Fashion,Cashmere Scarf,Everyday cashmere scarf in silver linen. boxy cut. side zip. Available in One size.,334.77,https://example.com/fashion/cashmere-scarf/76
+77,Fashion,Denim Jacket,Lightweight denim jacket in navy organic cotton. oversized. stretch panel at back. Available in Small.,194.61,https://example.com/fashion/denim-jacket/77
+78,Fashion,Wool Overshirt,Elevated wool overshirt in charcoal cotton. oversized. breathable weave. Available in 14-inch.,318.05,https://example.com/fashion/wool-overshirt/78
+79,Home,Electric Kettle,Premium electric kettle crafted from stainless steel in navy. fingerprint-resistant.,492.8,https://example.com/home/electric-kettle/79
+80,Fashion,High-Rise Jeans,Versatile high-rise jeans in rose suede. tailored fit. removable belt. Available in Large.,73.39,https://example.com/fashion/high-rise-jeans/80
+81,Fashion,Puffer Jacket,Lightweight puffer jacket in sky blue merino wool. boxy cut. mother-of-pearl buttons. Available in XS–XL.,270.03,https://example.com/fashion/puffer-jacket/81
+82,Home,LED Floor Lamp,Travel‑Friendly led floor lamp crafted from cast iron in white. soft-touch dimmer.,258.73,https://example.com/home/led-floor-lamp/82
+83,Tech,Action Camera,Compact action camera with silicone housing. low‑latency mode. USB‑C charging.,70.95,https://example.com/tech/action-camera/83
+84,Fashion,Merino Crewneck,Versatile merino crewneck in blush cotton. boxy cut. contrast stitching. Available in Small.,118.74,https://example.com/fashion/merino-crewneck/84
+85,Home,Dining Chair,Everyday dining chair crafted from walnut in sand. non-slip feet.,400.42,https://example.com/home/dining-chair/85
+86,Home,Espresso Machine,Versatile espresso machine crafted from walnut in olive. non-slip feet.,426.83,https://example.com/home/espresso-machine/86
+87,Tech,Wireless Earbuds,Versatile wireless earbuds with silicone housing. sleep mode after 10 min. up to 20h battery.,127.84,https://example.com/tech/wireless-earbuds/87
+88,Fashion,Merino Crewneck,Minimalist merino crewneck in white linen. tailored fit. breathable weave. Available in 15-inch.,76.8,https://example.com/fashion/merino-crewneck/88
+89,Fashion,Silk Blouse,Everyday silk blouse in navy organic cotton. boxy cut. removable belt. Available in S–L.,133.07,https://example.com/fashion/silk-blouse/89
+90,Tech,Mechanical Keyboard,Versatile mechanical keyboard with aluminum housing. sleep mode after 10 min. Bluetooth 5.3.,216.85,https://example.com/tech/mechanical-keyboard/90
+91,Home,Stoneware Dinner Plates,Compact stoneware dinner plates crafted from bamboo in blush. heat-resistant up to 450°F.,509.26,https://example.com/home/stoneware-dinner-plates/91
+92,Fashion,Ballet Flats,Elevated ballet flats in cream silk. tailored fit. hidden interior pocket. Available in One size.,155.66,https://example.com/fashion/ballet-flats/92
+93,Fashion,Work Blazer,Lightweight work blazer in rose merino wool. boxy cut. stretch panel at back. Available in S–L.,75.49,https://example.com/fashion/work-blazer/93
+94,Home,Percale Sheet Set,Elevated percale sheet set crafted from stainless steel in cream. non-slip feet.,386.79,https://example.com/home/percale-sheet-set/94
+95,Tech,Bluetooth Speaker,Minimalist bluetooth speaker with ABS housing. fold-flat hinges. active noise cancellation.,511.55,https://example.com/tech/bluetooth-speaker/95
+96,Home,Round Wall Mirror,Premium round wall mirror crafted from cotton in blush. heat-resistant up to 450°F.,237.6,https://example.com/home/round-wall-mirror/96
+97,Fashion,Flowy Maxi Dress,Compact flowy maxi dress in blush organic cotton. tailored fit. side zip. Available in XS–XL.,54.17,https://example.com/fashion/flowy-maxi-dress/97
+98,Fashion,Merino Crewneck,Compact merino crewneck in cream cotton. slim fit. mother-of-pearl buttons. Available in One size.,284.27,https://example.com/fashion/merino-crewneck/98
+99,Fashion,Chelsea Boots,Travel‑Friendly chelsea boots in silver denim. tailored fit. breathable weave. Available in Medium.,276.04,https://example.com/fashion/chelsea-boots/99
+100,Fashion,Pleated Midi Skirt,Lightweight pleated midi skirt in forest merino wool. boxy cut. mother-of-pearl buttons. Available in XS–XL.,158.91,https://example.com/fashion/pleated-midi-skirt/100
+101,Tech,Smartwatch,Lightweight smartwatch with polycarbonate housing. fold-flat hinges. Bluetooth 5.3.,606.1,https://example.com/tech/smartwatch/101
+102,Home,Throw Blanket,Travel‑Friendly throw blanket crafted from walnut in beige. tool-free assembly.,422.93,https://example.com/home/throw-blanket/102
+103,Fashion,Ribbed Tank,Travel‑Friendly ribbed tank in cream cotton. slim fit. contrast stitching. Available in Large.,310.74,https://example.com/fashion/ribbed-tank/103
+104,Fashion,Wool Overshirt,Premium wool overshirt in navy organic cotton. oversized. breathable weave. Available in 13-inch.,175.5,https://example.com/fashion/wool-overshirt/104
+105,Fashion,Classic Leather Sneakers,Minimalist classic leather sneakers in cream denim. oversized. contrast stitching. Available in 15-inch.,186.17,https://example.com/fashion/classic-leather-sneakers/105
+106,Home,Bath Towel Set,Versatile bath towel set crafted from bamboo in forest. soft-touch dimmer.,357.53,https://example.com/home/bath-towel-set/106
+107,Fashion,Corduroy Trousers,Lightweight corduroy trousers in white merino wool. relaxed fit. removable belt. Available in S–L.,308.05,https://example.com/fashion/corduroy-trousers/107
+108,Home,LED Floor Lamp,Elevated led floor lamp crafted from stainless steel in rose. reversible.,511.36,https://example.com/home/led-floor-lamp/108
+109,Tech,Laptop Sleeve,Everyday laptop sleeve with silicone housing. sleep mode after 10 min. up to 20h battery.,97.18,https://example.com/tech/laptop-sleeve/109
+110,Fashion,Classic Leather Sneakers,Versatile classic leather sneakers in beige linen. boxy cut. side zip. Available in Medium.,341.09,https://example.com/fashion/classic-leather-sneakers/110
+111,Fashion,Athletic Leggings,Compact athletic leggings in black merino wool. relaxed fit. contrast stitching. Available in One size.,233.15,https://example.com/fashion/athletic-leggings/111
+112,Fashion,Pleated Midi Skirt,Everyday pleated midi skirt in forest organic cotton. tailored fit. contrast stitching. Available in One size.,253.13,https://example.com/fashion/pleated-midi-skirt/112
+113,Tech,Fitness Tracker,Lightweight fitness tracker with ABS housing. up to 20h battery. multi‑device pairing.,683.83,https://example.com/tech/fitness-tracker/113
+114,Fashion,Heeled Sandals,Elevated heeled sandals in navy cashmere. oversized. breathable weave. Available in 13-inch.,284.62,https://example.com/fashion/heeled-sandals/114
+115,Tech,Foldable Phone Stand,Travel‑Friendly foldable phone stand with aluminum housing. low‑latency mode. Bluetooth 5.3.,333.23,https://example.com/tech/foldable-phone-stand/115
+116,Fashion,Leather Tote Bag,Everyday leather tote bag in silver linen. boxy cut. removable belt. Available in 13-inch.,339.8,https://example.com/fashion/leather-tote-bag/116
+117,Tech,Tablet Stylus,Versatile tablet stylus with aluminum housing. low‑latency mode. gesture controls.,664.26,https://example.com/tech/tablet-stylus/117
+118,Fashion,Heeled Sandals,Travel‑Friendly heeled sandals in charcoal merino wool. oversized. breathable weave. Available in 13-inch.,188.31,https://example.com/fashion/heeled-sandals/118
+119,Home,Hand-Tufted Wool Rug,Compact hand-tufted wool rug crafted from hand-blown glass in white. tool-free assembly.,207.26,https://example.com/home/hand-tufted-wool-rug/119
+120,Tech,Portable Projector,Versatile portable projector with silicone housing. sleep mode after 10 min. USB‑C charging.,244.78,https://example.com/tech/portable-projector/120
+121,Fashion,High-Rise Jeans,Travel‑Friendly high-rise jeans in forest merino wool. boxy cut. breathable weave. Available in Medium.,205.14,https://example.com/fashion/high-rise-jeans/121
+122,Home,Stoneware Dinner Plates,Everyday stoneware dinner plates crafted from wool in beige. soft-touch dimmer.,95.74,https://example.com/home/stoneware-dinner-plates/122
+123,Home,Dining Chair,Lightweight dining chair crafted from cotton in cream. modular design.,514.41,https://example.com/home/dining-chair/123
+124,Tech,USB-C Charger,Minimalist usb-c charger with silicone housing. gesture controls. sleep mode after 10 min.,635.94,https://example.com/tech/usb-c-charger/124
+125,Home,Espresso Machine,Compact espresso machine crafted from stainless steel in beige. dishwasher safe.,538.61,https://example.com/home/espresso-machine/125
+126,Fashion,High-Rise Jeans,Premium high-rise jeans in sand organic cotton. boxy cut. breathable weave. Available in Small.,273.92,https://example.com/fashion/high-rise-jeans/126
+127,Home,Cast Iron Skillet,Travel‑Friendly cast iron skillet crafted from rattan in terracotta. matte glaze.,46.65,https://example.com/home/cast-iron-skillet/127
+128,Fashion,Denim Jacket,Minimalist denim jacket in silver merino wool. relaxed fit. breathable weave. Available in 13-inch.,230.38,https://example.com/fashion/denim-jacket/128
+129,Home,Round Wall Mirror,Lightweight round wall mirror crafted from wool in rose. reversible.,505.29,https://example.com/home/round-wall-mirror/129
+130,Fashion,Corduroy Trousers,Versatile corduroy trousers in navy cotton. relaxed fit. contrast stitching. Available in Medium.,35.21,https://example.com/fashion/corduroy-trousers/130
+131,Fashion,Sports Bra,Compact sports bra in terracotta suede. slim fit. contrast stitching. Available in 15-inch.,327.42,https://example.com/fashion/sports-bra/131
+132,Tech,Foldable Phone Stand,Versatile foldable phone stand with silicone housing. low‑latency mode. USB‑C charging.,147.44,https://example.com/tech/foldable-phone-stand/132
+133,Tech,USB-C Charger,Travel‑Friendly usb-c charger with nylon housing. low‑latency mode. fold-flat hinges.,378.8,https://example.com/tech/usb-c-charger/133
+134,Fashion,Heeled Sandals,Elevated heeled sandals in sand merino wool. oversized. hidden interior pocket. Available in S–L.,347.39,https://example.com/fashion/heeled-sandals/134
+135,Home,Bamboo Cutting Board,Elevated bamboo cutting board crafted from walnut in sand. modular design.,268.12,https://example.com/home/bamboo-cutting-board/135
+136,Tech,Portable Projector,Lightweight portable projector with ABS housing. gesture controls. active noise cancellation.,796.66,https://example.com/tech/portable-projector/136
+137,Home,Aroma Diffuser,Travel‑Friendly aroma diffuser crafted from wool in cream. reversible.,547.46,https://example.com/home/aroma-diffuser/137
+138,Home,Bamboo Cutting Board,Travel‑Friendly bamboo cutting board crafted from cast iron in navy. matte glaze.,531.65,https://example.com/home/bamboo-cutting-board/138
+139,Home,Round Wall Mirror,Versatile round wall mirror crafted from stainless steel in sky blue. reversible.,195.08,https://example.com/home/round-wall-mirror/139
+140,Home,Storage Basket,Versatile storage basket crafted from cast iron in navy. tool-free assembly.,527.17,https://example.com/home/storage-basket/140
+141,Fashion,Chelsea Boots,Lightweight chelsea boots in white linen. oversized. machine washable. Available in 13-inch.,310.51,https://example.com/fashion/chelsea-boots/141
+142,Tech,Drone Camera,Minimalist drone camera with ABS housing. low‑latency mode. multi‑device pairing.,97.34,https://example.com/tech/drone-camera/142
+143,Fashion,Work Blazer,Minimalist work blazer in beige organic cotton. relaxed fit. mother-of-pearl buttons. Available in 13-inch.,145.34,https://example.com/fashion/work-blazer/143
+144,Fashion,Silk Blouse,Everyday silk blouse in sky blue vegan leather. oversized. contrast stitching. Available in Medium.,56.37,https://example.com/fashion/silk-blouse/144
+145,Home,Stoneware Dinner Plates,Travel‑Friendly stoneware dinner plates crafted from wool in white. matte glaze.,405.42,https://example.com/home/stoneware-dinner-plates/145
+146,Home,Throw Blanket,Minimalist throw blanket crafted from cotton in sky blue. non-slip feet.,396.37,https://example.com/home/throw-blanket/146
+147,Tech,Noise-Cancelling Headphones,Minimalist noise-cancelling headphones with aluminum housing. active noise cancellation. USB‑C charging.,65.14,https://example.com/tech/noise-cancelling-headphones/147
+148,Tech,Bluetooth Speaker,Lightweight bluetooth speaker with polycarbonate housing. fold-flat hinges. up to 20h battery.,509.84,https://example.com/tech/bluetooth-speaker/148
+149,Tech,Mechanical Keyboard,Versatile mechanical keyboard with ABS housing. multi‑device pairing. low‑latency mode.,587.64,https://example.com/tech/mechanical-keyboard/149
+150,Fashion,Chino Pants,Everyday chino pants in cream merino wool. boxy cut. contrast stitching. Available in 14-inch.,271.67,https://example.com/fashion/chino-pants/150
+151,Fashion,Polo Shirt,Lightweight polo shirt in olive vegan leather. slim fit. hidden interior pocket. Available in S–L.,167.35,https://example.com/fashion/polo-shirt/151
+152,Tech,Smart Home Hub,Minimalist smart home hub with aluminum housing. active noise cancellation. gesture controls.,95.68,https://example.com/tech/smart-home-hub/152
+153,Fashion,Athletic Leggings,Lightweight athletic leggings in blush cotton. tailored fit. mother-of-pearl buttons. Available in XS–XL.,60.46,https://example.com/fashion/athletic-leggings/153
+154,Tech,Action Camera,Lightweight action camera with ABS housing. fold-flat hinges. low‑latency mode.,190.4,https://example.com/tech/action-camera/154
+155,Home,Aroma Diffuser,Travel‑Friendly aroma diffuser crafted from cotton in black. matte glaze.,65.2,https://example.com/home/aroma-diffuser/155
+156,Tech,Smartwatch,Lightweight smartwatch with silicone housing. multi‑device pairing. active noise cancellation.,485.1,https://example.com/tech/smartwatch/156
+157,Tech,Bluetooth Speaker,Versatile bluetooth speaker with silicone housing. active noise cancellation. USB‑C charging.,427.57,https://example.com/tech/bluetooth-speaker/157
+158,Fashion,Linen Summer Dress,Versatile linen summer dress in rose organic cotton. boxy cut. breathable weave. Available in 14-inch.,172.42,https://example.com/fashion/linen-summer-dress/158
+159,Tech,Noise-Cancelling Headphones,Premium noise-cancelling headphones with ABS housing. gesture controls. active noise cancellation.,31.25,https://example.com/tech/noise-cancelling-headphones/159
+160,Fashion,Ballet Flats,Premium ballet flats in white suede. oversized. double-lined. Available in 14-inch.,139.94,https://example.com/fashion/ballet-flats/160
+161,Tech,Tablet Stylus,Compact tablet stylus with ABS housing. Bluetooth 5.3. multi‑device pairing.,118.46,https://example.com/tech/tablet-stylus/161
+162,Fashion,Cashmere Scarf,Everyday cashmere scarf in navy linen. oversized. double-lined. Available in S–L.,305.31,https://example.com/fashion/cashmere-scarf/162
+163,Fashion,Heeled Sandals,Premium heeled sandals in rose linen. relaxed fit. double-lined. Available in 15-inch.,252.09,https://example.com/fashion/heeled-sandals/163
+164,Home,Electric Kettle,Travel‑Friendly electric kettle crafted from stainless steel in silver. modular design.,297.07,https://example.com/home/electric-kettle/164
+165,Tech,Portable Projector,Compact portable projector with polycarbonate housing. sleep mode after 10 min. gesture controls.,202.43,https://example.com/tech/portable-projector/165
+166,Fashion,Wool Overshirt,Travel‑Friendly wool overshirt in beige linen. oversized. mother-of-pearl buttons. Available in 14-inch.,58.59,https://example.com/fashion/wool-overshirt/166
+167,Tech,Fitness Tracker,Elevated fitness tracker with aluminum housing. active noise cancellation. fold-flat hinges.,649.62,https://example.com/tech/fitness-tracker/167
+168,Tech,Drone Camera,Premium drone camera with silicone housing. low‑latency mode. up to 20h battery.,104.98,https://example.com/tech/drone-camera/168
+169,Tech,USB-C Charger,Everyday usb-c charger with silicone housing. USB‑C charging. up to 20h battery.,309.86,https://example.com/tech/usb-c-charger/169
+170,Home,Cast Iron Skillet,Everyday cast iron skillet crafted from bamboo in rose. fingerprint-resistant.,193.57,https://example.com/home/cast-iron-skillet/170
+171,Fashion,Leather Tote Bag,Minimalist leather tote bag in blush cashmere. relaxed fit. mother-of-pearl buttons. Available in 14-inch.,152.47,https://example.com/fashion/leather-tote-bag/171
+172,Home,Bath Towel Set,Elevated bath towel set crafted from walnut in sand. tool-free assembly.,491.75,https://example.com/home/bath-towel-set/172
+173,Fashion,Linen Summer Dress,Versatile linen summer dress in sand denim. relaxed fit. side zip. Available in Large.,309.84,https://example.com/fashion/linen-summer-dress/173
+174,Tech,Tablet Stylus,Premium tablet stylus with polycarbonate housing. fold-flat hinges. multi‑device pairing.,522.22,https://example.com/tech/tablet-stylus/174
+175,Fashion,Work Blazer,Travel‑Friendly work blazer in blush suede. tailored fit. side zip. Available in One size.,246.68,https://example.com/fashion/work-blazer/175
+176,Fashion,Wool Overshirt,Premium wool overshirt in navy organic cotton. relaxed fit. contrast stitching. Available in 15-inch.,51.89,https://example.com/fashion/wool-overshirt/176
+177,Tech,Wireless Earbuds,Elevated wireless earbuds with aluminum housing. active noise cancellation. multi‑device pairing.,461.55,https://example.com/tech/wireless-earbuds/177
+178,Fashion,Polo Shirt,Everyday polo shirt in navy cotton. slim fit. hidden interior pocket. Available in Large.,225.3,https://example.com/fashion/polo-shirt/178
+179,Home,Cookware Set,Everyday cookware set crafted from cotton in cream. soft-touch dimmer.,115.19,https://example.com/home/cookware-set/179
+180,Tech,Smartwatch,Everyday smartwatch with polycarbonate housing. low‑latency mode. sleep mode after 10 min.,297.17,https://example.com/tech/smartwatch/180
+181,Tech,Mechanical Keyboard,Lightweight mechanical keyboard with ABS housing. fold-flat hinges. low‑latency mode.,190.12,https://example.com/tech/mechanical-keyboard/181
+182,Fashion,Wool Overshirt,Everyday wool overshirt in sky blue cotton. slim fit. hidden interior pocket. Available in 15-inch.,269.45,https://example.com/fashion/wool-overshirt/182
+183,Tech,Foldable Phone Stand,Travel‑Friendly foldable phone stand with polycarbonate housing. gesture controls. USB‑C charging.,737.92,https://example.com/tech/foldable-phone-stand/183
+184,Fashion,Heeled Sandals,Everyday heeled sandals in terracotta vegan leather. relaxed fit. contrast stitching. Available in XS–XL.,227.14,https://example.com/fashion/heeled-sandals/184
+185,Home,Percale Sheet Set,Compact percale sheet set crafted from stainless steel in terracotta. reversible.,276.58,https://example.com/home/percale-sheet-set/185
+186,Tech,Laptop Sleeve,Premium laptop sleeve with ABS housing. low‑latency mode. sleep mode after 10 min.,193.36,https://example.com/tech/laptop-sleeve/186
+187,Fashion,Wool Overshirt,Minimalist wool overshirt in sky blue cotton. oversized. machine washable. Available in 15-inch.,316.91,https://example.com/fashion/wool-overshirt/187
+188,Fashion,Cashmere Scarf,Everyday cashmere scarf in cream cotton. slim fit. contrast stitching. Available in One size.,74.8,https://example.com/fashion/cashmere-scarf/188
+189,Fashion,Classic Leather Sneakers,Lightweight classic leather sneakers in beige vegan leather. oversized. removable belt. Available in Small.,69.41,https://example.com/fashion/classic-leather-sneakers/189
+190,Home,LED Floor Lamp,Everyday led floor lamp crafted from oak wood in blush. non-slip feet.,443.41,https://example.com/home/led-floor-lamp/190
+191,Home,Stoneware Dinner Plates,Premium stoneware dinner plates crafted from stoneware in gold. tool-free assembly.,223.89,https://example.com/home/stoneware-dinner-plates/191
+192,Home,Aroma Diffuser,Everyday aroma diffuser crafted from walnut in sky blue. reversible.,269.05,https://example.com/home/aroma-diffuser/192
+193,Tech,Noise-Cancelling Headphones,Compact noise-cancelling headphones with nylon housing. fold-flat hinges. low‑latency mode.,638.08,https://example.com/tech/noise-cancelling-headphones/193
+194,Tech,Smart Home Hub,Versatile smart home hub with silicone housing. low‑latency mode. fold-flat hinges.,217.03,https://example.com/tech/smart-home-hub/194
+195,Tech,Wireless Earbuds,Everyday wireless earbuds with nylon housing. fold-flat hinges. USB‑C charging.,524.58,https://example.com/tech/wireless-earbuds/195
+196,Tech,Drone Camera,Travel‑Friendly drone camera with ABS housing. low‑latency mode. gesture controls.,217.33,https://example.com/tech/drone-camera/196
+197,Home,Stoneware Dinner Plates,Travel‑Friendly stoneware dinner plates crafted from hand-blown glass in black. reversible.,368.58,https://example.com/home/stoneware-dinner-plates/197
+198,Fashion,Linen Summer Dress,Compact linen summer dress in navy denim. slim fit. mother-of-pearl buttons. Available in S–L.,260.78,https://example.com/fashion/linen-summer-dress/198
+199,Tech,Portable Projector,Premium portable projector with ABS housing. Bluetooth 5.3. low‑latency mode.,245.81,https://example.com/tech/portable-projector/199
+200,Tech,Fitness Tracker,Everyday fitness tracker with polycarbonate housing. sleep mode after 10 min. up to 20h battery.,754.49,https://example.com/tech/fitness-tracker/200
+201,Tech,E-Reader,Travel‑Friendly e-reader with aluminum housing. up to 20h battery. multi‑device pairing.,45.79,https://example.com/tech/e-reader/201
+202,Home,Dining Chair,Minimalist dining chair crafted from wool in beige. dishwasher safe.,511.3,https://example.com/home/dining-chair/202
+203,Tech,Smart Home Hub,Everyday smart home hub with polycarbonate housing. fold-flat hinges. Bluetooth 5.3.,703.77,https://example.com/tech/smart-home-hub/203
+204,Tech,Wireless Earbuds,Versatile wireless earbuds with ABS housing. fold-flat hinges. up to 20h battery.,184.22,https://example.com/tech/wireless-earbuds/204
+205,Tech,Noise-Cancelling Headphones,Elevated noise-cancelling headphones with aluminum housing. fold-flat hinges. up to 20h battery.,495.37,https://example.com/tech/noise-cancelling-headphones/205
+206,Tech,Smartphone Stand,Compact smartphone stand with polycarbonate housing. sleep mode after 10 min. Bluetooth 5.3.,171.2,https://example.com/tech/smartphone-stand/206
+207,Home,Dining Chair,Premium dining chair crafted from stoneware in charcoal. tool-free assembly.,247.22,https://example.com/home/dining-chair/207
+208,Fashion,Cashmere Scarf,Everyday cashmere scarf in olive silk. tailored fit. double-lined. Available in 14-inch.,236.77,https://example.com/fashion/cashmere-scarf/208
+209,Tech,Action Camera,Premium action camera with polycarbonate housing. USB‑C charging. up to 20h battery.,632.45,https://example.com/tech/action-camera/209
+210,Tech,Smartwatch,Versatile smartwatch with polycarbonate housing. multi‑device pairing. USB‑C charging.,640.18,https://example.com/tech/smartwatch/210
+211,Home,Espresso Machine,Lightweight espresso machine crafted from stoneware in rose. tool-free assembly.,158.82,https://example.com/home/espresso-machine/211
+212,Tech,Action Camera,Minimalist action camera with aluminum housing. active noise cancellation. fold-flat hinges.,324.06,https://example.com/tech/action-camera/212
+213,Fashion,Puffer Jacket,Everyday puffer jacket in black suede. tailored fit. side zip. Available in 13-inch.,107.15,https://example.com/fashion/puffer-jacket/213
+214,Home,Espresso Machine,Travel‑Friendly espresso machine crafted from stainless steel in gold. heat-resistant up to 450°F.,390.09,https://example.com/home/espresso-machine/214
+215,Home,Cast Iron Skillet,Lightweight cast iron skillet crafted from bamboo in charcoal. matte glaze.,61.19,https://example.com/home/cast-iron-skillet/215
+216,Home,Round Wall Mirror,Minimalist round wall mirror crafted from stainless steel in cream. reversible.,535.46,https://example.com/home/round-wall-mirror/216
+217,Home,Storage Basket,Lightweight storage basket crafted from cotton in sand. reversible.,27.0,https://example.com/home/storage-basket/217
+218,Tech,4K Webcam,Versatile 4k webcam with polycarbonate housing. sleep mode after 10 min. multi‑device pairing.,304.85,https://example.com/tech/4k-webcam/218
+219,Home,Bamboo Cutting Board,Everyday bamboo cutting board crafted from cotton in cream. dishwasher safe.,203.55,https://example.com/home/bamboo-cutting-board/219
+220,Fashion,Work Blazer,Versatile work blazer in sky blue cashmere. slim fit. side zip. Available in 14-inch.,153.79,https://example.com/fashion/work-blazer/220
+221,Fashion,Chino Pants,Versatile chino pants in sky blue denim. tailored fit. side zip. Available in Medium.,298.47,https://example.com/fashion/chino-pants/221
+222,Tech,Gaming Mouse,Minimalist gaming mouse with silicone housing. fold-flat hinges. gesture controls.,351.17,https://example.com/tech/gaming-mouse/222
+223,Tech,Drone Camera,Compact drone camera with ABS housing. sleep mode after 10 min. up to 20h battery.,448.43,https://example.com/tech/drone-camera/223
+224,Fashion,Corduroy Trousers,Minimalist corduroy trousers in white cashmere. relaxed fit. mother-of-pearl buttons. Available in 15-inch.,85.29,https://example.com/fashion/corduroy-trousers/224
+225,Fashion,Ballet Flats,Versatile ballet flats in olive cotton. tailored fit. double-lined. Available in XS–XL.,180.72,https://example.com/fashion/ballet-flats/225
+226,Home,Cookware Set,Versatile cookware set crafted from rattan in white. non-slip feet.,592.67,https://example.com/home/cookware-set/226
+227,Tech,Foldable Phone Stand,Versatile foldable phone stand with ABS housing. sleep mode after 10 min. active noise cancellation.,81.57,https://example.com/tech/foldable-phone-stand/227
+228,Fashion,Trench Coat,Everyday trench coat in sky blue suede. relaxed fit. mother-of-pearl buttons. Available in Large.,217.96,https://example.com/fashion/trench-coat/228
+229,Tech,Gaming Mouse,Travel‑Friendly gaming mouse with polycarbonate housing. sleep mode after 10 min. USB‑C charging.,35.69,https://example.com/tech/gaming-mouse/229
+230,Fashion,Chelsea Boots,Everyday chelsea boots in terracotta silk. oversized. breathable weave. Available in 14-inch.,99.04,https://example.com/fashion/chelsea-boots/230
+231,Tech,Bluetooth Speaker,Elevated bluetooth speaker with silicone housing. low‑latency mode. active noise cancellation.,740.0,https://example.com/tech/bluetooth-speaker/231
+232,Home,Bath Towel Set,Travel‑Friendly bath towel set crafted from wool in charcoal. tool-free assembly.,570.23,https://example.com/home/bath-towel-set/232
+233,Fashion,Classic Leather Sneakers,Elevated classic leather sneakers in silver cotton. relaxed fit. side zip. Available in XS–XL.,157.35,https://example.com/fashion/classic-leather-sneakers/233
+234,Tech,Mechanical Keyboard,Elevated mechanical keyboard with polycarbonate housing. up to 20h battery. Bluetooth 5.3.,247.03,https://example.com/tech/mechanical-keyboard/234
+235,Tech,Wireless Earbuds,Minimalist wireless earbuds with ABS housing. sleep mode after 10 min. up to 20h battery.,577.29,https://example.com/tech/wireless-earbuds/235
+236,Home,Hand-Tufted Wool Rug,Lightweight hand-tufted wool rug crafted from stoneware in beige. soft-touch dimmer.,464.92,https://example.com/home/hand-tufted-wool-rug/236
+237,Fashion,Polo Shirt,Compact polo shirt in silver silk. slim fit. side zip. Available in XS–XL.,165.54,https://example.com/fashion/polo-shirt/237
+238,Home,Down Pillow,Everyday down pillow crafted from oak wood in sky blue. non-slip feet.,253.32,https://example.com/home/down-pillow/238
+239,Tech,E-Reader,Elevated e-reader with polycarbonate housing. Bluetooth 5.3. gesture controls.,521.42,https://example.com/tech/e-reader/239
+240,Tech,4K Webcam,Everyday 4k webcam with nylon housing. sleep mode after 10 min. multi‑device pairing.,441.68,https://example.com/tech/4k-webcam/240
+241,Home,Cast Iron Skillet,Elevated cast iron skillet crafted from cast iron in olive. soft-touch dimmer.,108.55,https://example.com/home/cast-iron-skillet/241
+242,Fashion,Wrap Skirt,Compact wrap skirt in sky blue cashmere. tailored fit. machine washable. Available in S–L.,56.75,https://example.com/fashion/wrap-skirt/242
+243,Fashion,Linen Summer Dress,Travel‑Friendly linen summer dress in sand merino wool. boxy cut. removable belt. Available in XS–XL.,55.29,https://example.com/fashion/linen-summer-dress/243
+244,Home,Glass Coffee Table,Travel‑Friendly glass coffee table crafted from walnut in forest. heat-resistant up to 450°F.,554.14,https://example.com/home/glass-coffee-table/244
+245,Home,Percale Sheet Set,Premium percale sheet set crafted from bamboo in terracotta. heat-resistant up to 450°F.,585.1,https://example.com/home/percale-sheet-set/245
+246,Fashion,Pleated Midi Skirt,Premium pleated midi skirt in gold organic cotton. boxy cut. removable belt. Available in 14-inch.,79.72,https://example.com/fashion/pleated-midi-skirt/246
+247,Fashion,Silk Blouse,Versatile silk blouse in terracotta linen. slim fit. hidden interior pocket. Available in Medium.,134.56,https://example.com/fashion/silk-blouse/247
+248,Fashion,Chino Pants,Everyday chino pants in navy merino wool. slim fit. side zip. Available in XS–XL.,217.66,https://example.com/fashion/chino-pants/248
+249,Fashion,Ribbed Tank,Elevated ribbed tank in sand cotton. tailored fit. side zip. Available in Medium.,274.23,https://example.com/fashion/ribbed-tank/249
+250,Fashion,Classic Leather Sneakers,Premium classic leather sneakers in sky blue linen. relaxed fit. breathable weave. Available in Small.,237.95,https://example.com/fashion/classic-leather-sneakers/250
+251,Fashion,Chino Pants,Minimalist chino pants in charcoal denim. oversized. stretch panel at back. Available in S–L.,235.81,https://example.com/fashion/chino-pants/251
+252,Fashion,Flowy Maxi Dress,Travel‑Friendly flowy maxi dress in charcoal cotton. slim fit. side zip. Available in 13-inch.,129.25,https://example.com/fashion/flowy-maxi-dress/252
+253,Home,Glass Coffee Table,Travel‑Friendly glass coffee table crafted from wool in navy. dishwasher safe.,273.74,https://example.com/home/glass-coffee-table/253
+254,Fashion,Ribbed Tank,Elevated ribbed tank in charcoal vegan leather. oversized. contrast stitching. Available in Medium.,335.1,https://example.com/fashion/ribbed-tank/254
+255,Tech,Portable SSD,Minimalist portable ssd with polycarbonate housing. fold-flat hinges. low‑latency mode.,209.94,https://example.com/tech/portable-ssd/255
+256,Home,LED Floor Lamp,Premium led floor lamp crafted from cotton in beige. non-slip feet.,161.8,https://example.com/home/led-floor-lamp/256
+257,Home,Cookware Set,Lightweight cookware set crafted from bamboo in terracotta. matte glaze.,556.28,https://example.com/home/cookware-set/257
+258,Home,Stoneware Dinner Plates,Travel‑Friendly stoneware dinner plates crafted from oak wood in silver. soft-touch dimmer.,87.27,https://example.com/home/stoneware-dinner-plates/258
+259,Fashion,Pleated Midi Skirt,Lightweight pleated midi skirt in blush vegan leather. oversized. mother-of-pearl buttons. Available in Large.,225.93,https://example.com/fashion/pleated-midi-skirt/259
+260,Tech,4K Webcam,Compact 4k webcam with polycarbonate housing. Bluetooth 5.3. active noise cancellation.,67.65,https://example.com/tech/4k-webcam/260
+261,Tech,Portable SSD,Minimalist portable ssd with silicone housing. gesture controls. fold-flat hinges.,541.21,https://example.com/tech/portable-ssd/261
+262,Fashion,Heeled Sandals,Compact heeled sandals in sand merino wool. boxy cut. hidden interior pocket. Available in 13-inch.,240.58,https://example.com/fashion/heeled-sandals/262
+263,Tech,Smartphone Stand,Elevated smartphone stand with silicone housing. up to 20h battery. Bluetooth 5.3.,161.13,https://example.com/tech/smartphone-stand/263
+264,Fashion,Chelsea Boots,Travel‑Friendly chelsea boots in black silk. boxy cut. stretch panel at back. Available in Medium.,34.05,https://example.com/fashion/chelsea-boots/264
+265,Fashion,Chelsea Boots,Versatile chelsea boots in beige cotton. tailored fit. contrast stitching. Available in Large.,73.91,https://example.com/fashion/chelsea-boots/265
+266,Tech,Wireless Earbuds,Lightweight wireless earbuds with nylon housing. fold-flat hinges. low‑latency mode.,33.8,https://example.com/tech/wireless-earbuds/266
+267,Home,Down Pillow,Everyday down pillow crafted from cotton in cream. reversible.,307.92,https://example.com/home/down-pillow/267
+268,Tech,Noise-Cancelling Headphones,Lightweight noise-cancelling headphones with nylon housing. sleep mode after 10 min. gesture controls.,293.7,https://example.com/tech/noise-cancelling-headphones/268
+269,Tech,Smartwatch,Premium smartwatch with polycarbonate housing. up to 20h battery. active noise cancellation.,425.85,https://example.com/tech/smartwatch/269
+270,Fashion,Linen Summer Dress,Versatile linen summer dress in white suede. boxy cut. mother-of-pearl buttons. Available in 13-inch.,293.2,https://example.com/fashion/linen-summer-dress/270
+271,Home,Down Pillow,Compact down pillow crafted from cast iron in rose. dishwasher safe.,170.36,https://example.com/home/down-pillow/271
+272,Fashion,Denim Jacket,Premium denim jacket in silver linen. tailored fit. side zip. Available in XS–XL.,149.0,https://example.com/fashion/denim-jacket/272
+273,Home,Throw Blanket,Premium throw blanket crafted from rattan in black. soft-touch dimmer.,454.87,https://example.com/home/throw-blanket/273
+274,Tech,USB-C Charger,Everyday usb-c charger with silicone housing. sleep mode after 10 min. USB‑C charging.,701.93,https://example.com/tech/usb-c-charger/274
+275,Fashion,Corduroy Trousers,Everyday corduroy trousers in rose vegan leather. relaxed fit. stretch panel at back. Available in 15-inch.,264.54,https://example.com/fashion/corduroy-trousers/275
+276,Fashion,Ribbed Tank,Compact ribbed tank in navy cashmere. tailored fit. contrast stitching. Available in Small.,67.78,https://example.com/fashion/ribbed-tank/276
+277,Tech,Fitness Tracker,Minimalist fitness tracker with polycarbonate housing. active noise cancellation. sleep mode after 10 min.,722.42,https://example.com/tech/fitness-tracker/277
+278,Fashion,Merino Crewneck,Versatile merino crewneck in sand organic cotton. tailored fit. stretch panel at back. Available in Small.,137.2,https://example.com/fashion/merino-crewneck/278
+279,Tech,4K Webcam,Versatile 4k webcam with silicone housing. multi‑device pairing. up to 20h battery.,357.73,https://example.com/tech/4k-webcam/279
+280,Home,Espresso Machine,Lightweight espresso machine crafted from cast iron in beige. heat-resistant up to 450°F.,323.84,https://example.com/home/espresso-machine/280
+281,Fashion,Flowy Maxi Dress,Elevated flowy maxi dress in black denim. slim fit. contrast stitching. Available in Large.,114.14,https://example.com/fashion/flowy-maxi-dress/281
+282,Home,LED Floor Lamp,Minimalist led floor lamp crafted from cast iron in silver. tool-free assembly.,585.53,https://example.com/home/led-floor-lamp/282
+283,Fashion,Sports Bra,Compact sports bra in gold cotton. boxy cut. double-lined. Available in Large.,230.81,https://example.com/fashion/sports-bra/283
+284,Fashion,Ribbed Tank,Premium ribbed tank in sky blue merino wool. slim fit. mother-of-pearl buttons. Available in Small.,188.77,https://example.com/fashion/ribbed-tank/284
+285,Home,Electric Kettle,Versatile electric kettle crafted from oak wood in beige. soft-touch dimmer.,316.25,https://example.com/home/electric-kettle/285
+286,Fashion,Polo Shirt,Everyday polo shirt in charcoal suede. slim fit. removable belt. Available in 15-inch.,47.74,https://example.com/fashion/polo-shirt/286
+287,Fashion,Ribbed Tank,Minimalist ribbed tank in navy suede. tailored fit. double-lined. Available in 14-inch.,305.0,https://example.com/fashion/ribbed-tank/287
+288,Home,Electric Kettle,Travel‑Friendly electric kettle crafted from stainless steel in rose. tool-free assembly.,116.79,https://example.com/home/electric-kettle/288
+289,Tech,Portable SSD,Elevated portable ssd with polycarbonate housing. gesture controls. up to 20h battery.,146.92,https://example.com/tech/portable-ssd/289
+290,Home,Down Pillow,Elevated down pillow crafted from wool in sky blue. modular design.,468.53,https://example.com/home/down-pillow/290
+291,Fashion,Ballet Flats,Everyday ballet flats in forest merino wool. oversized. removable belt. Available in Small.,316.17,https://example.com/fashion/ballet-flats/291
+292,Fashion,Leather Tote Bag,Travel‑Friendly leather tote bag in gold cashmere. tailored fit. double-lined. Available in One size.,245.72,https://example.com/fashion/leather-tote-bag/292
+293,Tech,USB-C Charger,Versatile usb-c charger with silicone housing. multi‑device pairing. up to 20h battery.,114.38,https://example.com/tech/usb-c-charger/293
+294,Home,Hand-Tufted Wool Rug,Versatile hand-tufted wool rug crafted from hand-blown glass in terracotta. soft-touch dimmer.,449.65,https://example.com/home/hand-tufted-wool-rug/294
+295,Fashion,Polo Shirt,Lightweight polo shirt in forest vegan leather. relaxed fit. machine washable. Available in 13-inch.,30.82,https://example.com/fashion/polo-shirt/295
+296,Tech,Smart Home Hub,Elevated smart home hub with ABS housing. gesture controls. multi‑device pairing.,690.48,https://example.com/tech/smart-home-hub/296
+297,Tech,Portable SSD,Travel‑Friendly portable ssd with silicone housing. gesture controls. up to 20h battery.,34.52,https://example.com/tech/portable-ssd/297
+298,Fashion,Wrap Skirt,Versatile wrap skirt in blush organic cotton. tailored fit. stretch panel at back. Available in Large.,44.71,https://example.com/fashion/wrap-skirt/298
+299,Fashion,Denim Jacket,Everyday denim jacket in rose organic cotton. boxy cut. hidden interior pocket. Available in One size.,146.47,https://example.com/fashion/denim-jacket/299
+300,Home,Aroma Diffuser,Compact aroma diffuser crafted from wool in white. non-slip feet.,553.73,https://example.com/home/aroma-diffuser/300
+301,Home,Dining Chair,Everyday dining chair crafted from stainless steel in terracotta. reversible.,123.8,https://example.com/home/dining-chair/301
+302,Home,Cast Iron Skillet,Minimalist cast iron skillet crafted from cotton in black. heat-resistant up to 450°F.,577.0,https://example.com/home/cast-iron-skillet/302
+303,Fashion,Sports Bra,Lightweight sports bra in silver linen. oversized. breathable weave. Available in 15-inch.,41.32,https://example.com/fashion/sports-bra/303
+304,Fashion,Ballet Flats,Elevated ballet flats in navy linen. oversized. hidden interior pocket. Available in S–L.,287.0,https://example.com/fashion/ballet-flats/304
+305,Tech,Drone Camera,Minimalist drone camera with silicone housing. Bluetooth 5.3. USB‑C charging.,578.37,https://example.com/tech/drone-camera/305
+306,Fashion,Wrap Skirt,Minimalist wrap skirt in forest merino wool. boxy cut. hidden interior pocket. Available in Medium.,239.83,https://example.com/fashion/wrap-skirt/306
+307,Tech,Mechanical Keyboard,Lightweight mechanical keyboard with nylon housing. Bluetooth 5.3. multi‑device pairing.,199.0,https://example.com/tech/mechanical-keyboard/307
+308,Home,Percale Sheet Set,Lightweight percale sheet set crafted from hand-blown glass in forest. dishwasher safe.,163.99,https://example.com/home/percale-sheet-set/308
+309,Home,Glass Coffee Table,Lightweight glass coffee table crafted from cotton in sand. non-slip feet.,551.2,https://example.com/home/glass-coffee-table/309
+310,Home,Aroma Diffuser,Compact aroma diffuser crafted from hand-blown glass in cream. heat-resistant up to 450°F.,205.56,https://example.com/home/aroma-diffuser/310
+311,Home,Ceramic Vase,Lightweight ceramic vase crafted from walnut in silver. tool-free assembly.,499.08,https://example.com/home/ceramic-vase/311
+312,Fashion,Loafer,Lightweight loafer in gold denim. slim fit. machine washable. Available in 14-inch.,212.89,https://example.com/fashion/loafer/312
+313,Home,Espresso Machine,Everyday espresso machine crafted from oak wood in rose. matte glaze.,89.25,https://example.com/home/espresso-machine/313
+314,Tech,Foldable Phone Stand,Minimalist foldable phone stand with aluminum housing. up to 20h battery. low‑latency mode.,546.83,https://example.com/tech/foldable-phone-stand/314
+315,Home,Aroma Diffuser,Lightweight aroma diffuser crafted from cotton in black. non-slip feet.,50.55,https://example.com/home/aroma-diffuser/315
+316,Tech,Action Camera,Elevated action camera with nylon housing. active noise cancellation. sleep mode after 10 min.,197.97,https://example.com/tech/action-camera/316
+317,Home,Down Pillow,Premium down pillow crafted from rattan in gold. fingerprint-resistant.,319.15,https://example.com/home/down-pillow/317
+318,Tech,Smart Home Hub,Versatile smart home hub with nylon housing. gesture controls. active noise cancellation.,60.59,https://example.com/tech/smart-home-hub/318
+319,Tech,Smartwatch,Versatile smartwatch with nylon housing. multi‑device pairing. Bluetooth 5.3.,335.72,https://example.com/tech/smartwatch/319
+320,Fashion,Loafer,Premium loafer in navy vegan leather. tailored fit. mother-of-pearl buttons. Available in Small.,310.64,https://example.com/fashion/loafer/320
+321,Home,Bath Towel Set,Premium bath towel set crafted from cast iron in white. heat-resistant up to 450°F.,522.3,https://example.com/home/bath-towel-set/321
+322,Home,Bamboo Cutting Board,Everyday bamboo cutting board crafted from bamboo in sand. non-slip feet.,468.65,https://example.com/home/bamboo-cutting-board/322
+323,Tech,USB-C Charger,Minimalist usb-c charger with ABS housing. gesture controls. low‑latency mode.,265.79,https://example.com/tech/usb-c-charger/323
+324,Home,Ceramic Vase,Versatile ceramic vase crafted from rattan in white. tool-free assembly.,70.1,https://example.com/home/ceramic-vase/324
+325,Home,Bath Towel Set,Compact bath towel set crafted from stainless steel in navy. dishwasher safe.,284.91,https://example.com/home/bath-towel-set/325
+326,Fashion,Ballet Flats,Elevated ballet flats in white cashmere. boxy cut. machine washable. Available in Large.,148.05,https://example.com/fashion/ballet-flats/326
+327,Fashion,Sports Bra,Lightweight sports bra in black linen. relaxed fit. contrast stitching. Available in 15-inch.,123.31,https://example.com/fashion/sports-bra/327
+328,Tech,Portable SSD,Travel‑Friendly portable ssd with aluminum housing. gesture controls. up to 20h battery.,632.99,https://example.com/tech/portable-ssd/328
+329,Home,Storage Basket,Versatile storage basket crafted from cotton in beige. fingerprint-resistant.,448.95,https://example.com/home/storage-basket/329
+330,Fashion,Athletic Leggings,Travel‑Friendly athletic leggings in charcoal organic cotton. tailored fit. removable belt. Available in Medium.,107.63,https://example.com/fashion/athletic-leggings/330
+331,Fashion,High-Rise Jeans,Versatile high-rise jeans in rose cashmere. boxy cut. side zip. Available in Medium.,147.85,https://example.com/fashion/high-rise-jeans/331
+332,Tech,Foldable Phone Stand,Compact foldable phone stand with nylon housing. up to 20h battery. gesture controls.,778.19,https://example.com/tech/foldable-phone-stand/332
+333,Fashion,Silk Blouse,Premium silk blouse in sky blue cashmere. oversized. breathable weave. Available in Medium.,349.29,https://example.com/fashion/silk-blouse/333
+334,Fashion,Sports Bra,Compact sports bra in navy linen. boxy cut. mother-of-pearl buttons. Available in 15-inch.,278.28,https://example.com/fashion/sports-bra/334
+335,Fashion,Trench Coat,Premium trench coat in charcoal merino wool. tailored fit. stretch panel at back. Available in One size.,264.39,https://example.com/fashion/trench-coat/335
+336,Home,Percale Sheet Set,Minimalist percale sheet set crafted from oak wood in black. fingerprint-resistant.,337.0,https://example.com/home/percale-sheet-set/336
+337,Tech,Fitness Tracker,Minimalist fitness tracker with ABS housing. fold-flat hinges. active noise cancellation.,641.88,https://example.com/tech/fitness-tracker/337
+338,Fashion,Wrap Skirt,Minimalist wrap skirt in forest cashmere. slim fit. hidden interior pocket. Available in One size.,78.18,https://example.com/fashion/wrap-skirt/338
+339,Fashion,Leather Tote Bag,Travel‑Friendly leather tote bag in charcoal suede. oversized. hidden interior pocket. Available in One size.,328.37,https://example.com/fashion/leather-tote-bag/339
+340,Tech,Laptop Sleeve,Elevated laptop sleeve with aluminum housing. multi‑device pairing. active noise cancellation.,43.53,https://example.com/tech/laptop-sleeve/340
+341,Tech,Portable SSD,Minimalist portable ssd with ABS housing. sleep mode after 10 min. multi‑device pairing.,444.7,https://example.com/tech/portable-ssd/341
+342,Home,Bamboo Cutting Board,Elevated bamboo cutting board crafted from wool in terracotta. soft-touch dimmer.,388.85,https://example.com/home/bamboo-cutting-board/342
+343,Home,Glass Coffee Table,Compact glass coffee table crafted from walnut in beige. modular design.,422.21,https://example.com/home/glass-coffee-table/343
+344,Fashion,Leather Tote Bag,Compact leather tote bag in white cashmere. boxy cut. hidden interior pocket. Available in Large.,33.07,https://example.com/fashion/leather-tote-bag/344
+345,Home,Electric Kettle,Lightweight electric kettle crafted from cast iron in beige. dishwasher safe.,214.31,https://example.com/home/electric-kettle/345
+346,Fashion,Ballet Flats,Premium ballet flats in olive vegan leather. boxy cut. mother-of-pearl buttons. Available in S–L.,272.86,https://example.com/fashion/ballet-flats/346
+347,Tech,Fitness Tracker,Everyday fitness tracker with aluminum housing. fold-flat hinges. up to 20h battery.,316.61,https://example.com/tech/fitness-tracker/347
+348,Fashion,Loafer,Lightweight loafer in charcoal merino wool. boxy cut. mother-of-pearl buttons. Available in 14-inch.,266.19,https://example.com/fashion/loafer/348
+349,Fashion,Heeled Sandals,Premium heeled sandals in rose cashmere. relaxed fit. machine washable. Available in Large.,128.4,https://example.com/fashion/heeled-sandals/349
+350,Tech,Mechanical Keyboard,Elevated mechanical keyboard with nylon housing. gesture controls. fold-flat hinges.,184.03,https://example.com/tech/mechanical-keyboard/350
+351,Fashion,Pleated Midi Skirt,Lightweight pleated midi skirt in white denim. boxy cut. contrast stitching. Available in XS–XL.,344.6,https://example.com/fashion/pleated-midi-skirt/351
+352,Fashion,Work Blazer,Versatile work blazer in blush vegan leather. tailored fit. hidden interior pocket. Available in 14-inch.,164.34,https://example.com/fashion/work-blazer/352
+353,Fashion,Chino Pants,Minimalist chino pants in silver organic cotton. tailored fit. contrast stitching. Available in S–L.,337.58,https://example.com/fashion/chino-pants/353
+354,Fashion,Work Blazer,Compact work blazer in sky blue denim. tailored fit. contrast stitching. Available in 14-inch.,341.22,https://example.com/fashion/work-blazer/354
+355,Fashion,Cashmere Scarf,Premium cashmere scarf in rose cashmere. boxy cut. hidden interior pocket. Available in S–L.,75.56,https://example.com/fashion/cashmere-scarf/355
+356,Tech,Laptop Sleeve,Premium laptop sleeve with ABS housing. USB‑C charging. Bluetooth 5.3.,241.86,https://example.com/tech/laptop-sleeve/356
+357,Fashion,Classic Leather Sneakers,Lightweight classic leather sneakers in sand organic cotton. tailored fit. hidden interior pocket. Available in One size.,44.05,https://example.com/fashion/classic-leather-sneakers/357
+358,Home,Throw Blanket,Travel‑Friendly throw blanket crafted from cotton in olive. modular design.,154.25,https://example.com/home/throw-blanket/358
+359,Tech,Fitness Tracker,Premium fitness tracker with silicone housing. multi‑device pairing. Bluetooth 5.3.,680.27,https://example.com/tech/fitness-tracker/359
+360,Fashion,Silk Blouse,Everyday silk blouse in cream suede. tailored fit. contrast stitching. Available in Large.,162.18,https://example.com/fashion/silk-blouse/360
+361,Home,Round Wall Mirror,Minimalist round wall mirror crafted from cotton in cream. tool-free assembly.,539.44,https://example.com/home/round-wall-mirror/361
+362,Fashion,Loafer,Versatile loafer in forest cotton. boxy cut. hidden interior pocket. Available in Small.,176.71,https://example.com/fashion/loafer/362
+363,Fashion,Pleated Midi Skirt,Lightweight pleated midi skirt in charcoal suede. boxy cut. machine washable. Available in One size.,269.33,https://example.com/fashion/pleated-midi-skirt/363
+364,Home,Espresso Machine,Elevated espresso machine crafted from bamboo in sky blue. tool-free assembly.,356.85,https://example.com/home/espresso-machine/364
+365,Fashion,Silk Blouse,Everyday silk blouse in sand merino wool. slim fit. breathable weave. Available in One size.,191.74,https://example.com/fashion/silk-blouse/365
+366,Tech,Smartwatch,Minimalist smartwatch with aluminum housing. multi‑device pairing. fold-flat hinges.,518.84,https://example.com/tech/smartwatch/366
+367,Fashion,Merino Crewneck,Elevated merino crewneck in olive suede. oversized. stretch panel at back. Available in S–L.,156.19,https://example.com/fashion/merino-crewneck/367
+368,Home,Bath Towel Set,Elevated bath towel set crafted from cast iron in terracotta. tool-free assembly.,363.3,https://example.com/home/bath-towel-set/368
+369,Fashion,Cashmere Scarf,Elevated cashmere scarf in forest organic cotton. tailored fit. machine washable. Available in 15-inch.,49.93,https://example.com/fashion/cashmere-scarf/369
+370,Fashion,Chelsea Boots,Lightweight chelsea boots in forest silk. tailored fit. double-lined. Available in One size.,241.98,https://example.com/fashion/chelsea-boots/370
+371,Tech,Gaming Mouse,Compact gaming mouse with polycarbonate housing. fold-flat hinges. USB‑C charging.,126.3,https://example.com/tech/gaming-mouse/371
+372,Home,Glass Coffee Table,Everyday glass coffee table crafted from oak wood in charcoal. modular design.,189.17,https://example.com/home/glass-coffee-table/372
+373,Tech,Tablet Stylus,Versatile tablet stylus with silicone housing. low‑latency mode. multi‑device pairing.,684.46,https://example.com/tech/tablet-stylus/373
+374,Fashion,High-Rise Jeans,Compact high-rise jeans in olive merino wool. tailored fit. stretch panel at back. Available in Medium.,326.33,https://example.com/fashion/high-rise-jeans/374
+375,Fashion,Corduroy Trousers,Travel‑Friendly corduroy trousers in black organic cotton. boxy cut. machine washable. Available in 14-inch.,155.74,https://example.com/fashion/corduroy-trousers/375
+376,Tech,Action Camera,Compact action camera with nylon housing. low‑latency mode. up to 20h battery.,669.72,https://example.com/tech/action-camera/376
+377,Fashion,Denim Jacket,Premium denim jacket in rose merino wool. slim fit. side zip. Available in Medium.,134.4,https://example.com/fashion/denim-jacket/377
+378,Fashion,Work Blazer,Compact work blazer in gold suede. tailored fit. removable belt. Available in One size.,174.88,https://example.com/fashion/work-blazer/378
+379,Home,Dining Chair,Elevated dining chair crafted from cast iron in charcoal. dishwasher safe.,155.49,https://example.com/home/dining-chair/379
+380,Home,Cast Iron Skillet,Everyday cast iron skillet crafted from stoneware in terracotta. reversible.,567.26,https://example.com/home/cast-iron-skillet/380
+381,Fashion,Puffer Jacket,Elevated puffer jacket in olive suede. oversized. double-lined. Available in 15-inch.,73.56,https://example.com/fashion/puffer-jacket/381
+382,Fashion,Athletic Leggings,Minimalist athletic leggings in gold organic cotton. slim fit. removable belt. Available in 14-inch.,276.45,https://example.com/fashion/athletic-leggings/382
+383,Home,Hand-Tufted Wool Rug,Travel‑Friendly hand-tufted wool rug crafted from cast iron in olive. tool-free assembly.,83.2,https://example.com/home/hand-tufted-wool-rug/383
+384,Fashion,Loafer,Lightweight loafer in blush silk. relaxed fit. removable belt. Available in Large.,63.81,https://example.com/fashion/loafer/384
+385,Home,Bamboo Cutting Board,Compact bamboo cutting board crafted from cotton in cream. matte glaze.,280.75,https://example.com/home/bamboo-cutting-board/385
+386,Home,Dining Chair,Versatile dining chair crafted from cast iron in forest. modular design.,202.14,https://example.com/home/dining-chair/386
+387,Home,Throw Blanket,Minimalist throw blanket crafted from wool in black. reversible.,90.03,https://example.com/home/throw-blanket/387
+388,Home,Round Wall Mirror,Premium round wall mirror crafted from walnut in cream. dishwasher safe.,227.81,https://example.com/home/round-wall-mirror/388
+389,Tech,Smartphone Stand,Minimalist smartphone stand with silicone housing. sleep mode after 10 min. fold-flat hinges.,622.01,https://example.com/tech/smartphone-stand/389
+390,Fashion,Leather Tote Bag,Elevated leather tote bag in rose cashmere. oversized. stretch panel at back. Available in Small.,174.61,https://example.com/fashion/leather-tote-bag/390
+391,Fashion,Sports Bra,Versatile sports bra in sky blue merino wool. boxy cut. breathable weave. Available in 13-inch.,178.27,https://example.com/fashion/sports-bra/391
+392,Tech,Tablet Stylus,Everyday tablet stylus with ABS housing. gesture controls. fold-flat hinges.,685.67,https://example.com/tech/tablet-stylus/392
+393,Fashion,Denim Jacket,Lightweight denim jacket in rose silk. oversized. breathable weave. Available in 14-inch.,58.93,https://example.com/fashion/denim-jacket/393
+394,Fashion,Work Blazer,Compact work blazer in white denim. oversized. contrast stitching. Available in S–L.,288.43,https://example.com/fashion/work-blazer/394
+395,Tech,Laptop Sleeve,Elevated laptop sleeve with aluminum housing. fold-flat hinges. sleep mode after 10 min.,260.77,https://example.com/tech/laptop-sleeve/395
+396,Fashion,Denim Jacket,Travel‑Friendly denim jacket in gold merino wool. relaxed fit. contrast stitching. Available in 14-inch.,255.51,https://example.com/fashion/denim-jacket/396
+397,Fashion,Pleated Midi Skirt,Travel‑Friendly pleated midi skirt in terracotta silk. slim fit. contrast stitching. Available in S–L.,223.06,https://example.com/fashion/pleated-midi-skirt/397
+398,Fashion,Chino Pants,Minimalist chino pants in blush silk. slim fit. machine washable. Available in Large.,98.81,https://example.com/fashion/chino-pants/398
+399,Tech,Smartphone Stand,Minimalist smartphone stand with aluminum housing. USB‑C charging. gesture controls.,688.84,https://example.com/tech/smartphone-stand/399
+400,Fashion,Wool Overshirt,Minimalist wool overshirt in silver cotton. tailored fit. machine washable. Available in 15-inch.,77.46,https://example.com/fashion/wool-overshirt/400
+401,Fashion,Chino Pants,Versatile chino pants in navy linen. slim fit. stretch panel at back. Available in Medium.,257.57,https://example.com/fashion/chino-pants/401
+402,Fashion,Trench Coat,Elevated trench coat in white organic cotton. boxy cut. machine washable. Available in Large.,339.89,https://example.com/fashion/trench-coat/402
+403,Tech,Drone Camera,Travel‑Friendly drone camera with ABS housing. Bluetooth 5.3. USB‑C charging.,332.09,https://example.com/tech/drone-camera/403
+404,Home,Storage Basket,Minimalist storage basket crafted from stoneware in charcoal. modular design.,48.39,https://example.com/home/storage-basket/404
+405,Home,Ceramic Vase,Everyday ceramic vase crafted from stainless steel in white. non-slip feet.,193.33,https://example.com/home/ceramic-vase/405
+406,Home,Cookware Set,Travel‑Friendly cookware set crafted from walnut in forest. modular design.,495.65,https://example.com/home/cookware-set/406
+407,Fashion,Trench Coat,Elevated trench coat in black linen. slim fit. stretch panel at back. Available in S–L.,85.64,https://example.com/fashion/trench-coat/407
+408,Fashion,Classic Leather Sneakers,Elevated classic leather sneakers in forest silk. boxy cut. double-lined. Available in 14-inch.,334.67,https://example.com/fashion/classic-leather-sneakers/408
+409,Tech,Wireless Earbuds,Elevated wireless earbuds with nylon housing. Bluetooth 5.3. multi‑device pairing.,687.32,https://example.com/tech/wireless-earbuds/409
+410,Fashion,Wrap Skirt,Compact wrap skirt in navy merino wool. slim fit. double-lined. Available in S–L.,207.91,https://example.com/fashion/wrap-skirt/410
+411,Tech,Action Camera,Elevated action camera with polycarbonate housing. sleep mode after 10 min. gesture controls.,451.34,https://example.com/tech/action-camera/411
+412,Tech,Smartphone Stand,Lightweight smartphone stand with aluminum housing. multi‑device pairing. sleep mode after 10 min.,98.41,https://example.com/tech/smartphone-stand/412
+413,Home,Cast Iron Skillet,Elevated cast iron skillet crafted from stainless steel in sky blue. modular design.,79.11,https://example.com/home/cast-iron-skillet/413
+414,Fashion,Loafer,Premium loafer in cream cotton. slim fit. machine washable. Available in 13-inch.,284.02,https://example.com/fashion/loafer/414
+415,Home,Throw Blanket,Lightweight throw blanket crafted from cotton in black. fingerprint-resistant.,90.44,https://example.com/home/throw-blanket/415
+416,Home,Throw Blanket,Lightweight throw blanket crafted from cast iron in silver. reversible.,55.77,https://example.com/home/throw-blanket/416
+417,Tech,4K Webcam,Versatile 4k webcam with nylon housing. up to 20h battery. low‑latency mode.,630.24,https://example.com/tech/4k-webcam/417
+418,Tech,Drone Camera,Premium drone camera with aluminum housing. active noise cancellation. sleep mode after 10 min.,197.27,https://example.com/tech/drone-camera/418
+419,Tech,Smart Home Hub,Everyday smart home hub with polycarbonate housing. active noise cancellation. fold-flat hinges.,178.55,https://example.com/tech/smart-home-hub/419
+420,Home,Stoneware Dinner Plates,Elevated stoneware dinner plates crafted from stoneware in navy. non-slip feet.,252.34,https://example.com/home/stoneware-dinner-plates/420
+421,Fashion,Corduroy Trousers,Elevated corduroy trousers in blush denim. relaxed fit. hidden interior pocket. Available in Medium.,249.61,https://example.com/fashion/corduroy-trousers/421
+422,Fashion,Corduroy Trousers,Premium corduroy trousers in sand organic cotton. oversized. contrast stitching. Available in S–L.,330.02,https://example.com/fashion/corduroy-trousers/422
+423,Fashion,High-Rise Jeans,Premium high-rise jeans in blush silk. boxy cut. machine washable. Available in 13-inch.,56.89,https://example.com/fashion/high-rise-jeans/423
+424,Home,Down Pillow,Travel‑Friendly down pillow crafted from hand-blown glass in silver. tool-free assembly.,359.95,https://example.com/home/down-pillow/424
+425,Tech,Smart Home Hub,Compact smart home hub with aluminum housing. gesture controls. low‑latency mode.,736.01,https://example.com/tech/smart-home-hub/425
+426,Home,Storage Basket,Lightweight storage basket crafted from stainless steel in white. heat-resistant up to 450°F.,63.49,https://example.com/home/storage-basket/426
+427,Fashion,Heeled Sandals,Everyday heeled sandals in terracotta organic cotton. oversized. hidden interior pocket. Available in 14-inch.,349.09,https://example.com/fashion/heeled-sandals/427
+428,Home,Ceramic Vase,Minimalist ceramic vase crafted from cast iron in blush. soft-touch dimmer.,134.7,https://example.com/home/ceramic-vase/428
+429,Home,Percale Sheet Set,Elevated percale sheet set crafted from hand-blown glass in gold. tool-free assembly.,394.67,https://example.com/home/percale-sheet-set/429
+430,Fashion,Denim Jacket,Minimalist denim jacket in blush vegan leather. relaxed fit. stretch panel at back. Available in 13-inch.,288.98,https://example.com/fashion/denim-jacket/430
+431,Fashion,Sports Bra,Versatile sports bra in sky blue cashmere. slim fit. contrast stitching. Available in Small.,59.43,https://example.com/fashion/sports-bra/431
+432,Home,Electric Kettle,Everyday electric kettle crafted from wool in forest. dishwasher safe.,511.42,https://example.com/home/electric-kettle/432
+433,Tech,Foldable Phone Stand,Premium foldable phone stand with polycarbonate housing. low‑latency mode. sleep mode after 10 min.,651.89,https://example.com/tech/foldable-phone-stand/433
+434,Tech,Portable Projector,Minimalist portable projector with silicone housing. USB‑C charging. fold-flat hinges.,119.96,https://example.com/tech/portable-projector/434
+435,Tech,Portable SSD,Elevated portable ssd with nylon housing. Bluetooth 5.3. fold-flat hinges.,755.27,https://example.com/tech/portable-ssd/435
+436,Tech,Bluetooth Speaker,Elevated bluetooth speaker with aluminum housing. active noise cancellation. up to 20h battery.,64.24,https://example.com/tech/bluetooth-speaker/436
+437,Tech,Smartwatch,Versatile smartwatch with ABS housing. USB‑C charging. gesture controls.,741.2,https://example.com/tech/smartwatch/437
+438,Tech,Noise-Cancelling Headphones,Elevated noise-cancelling headphones with nylon housing. fold-flat hinges. multi‑device pairing.,360.7,https://example.com/tech/noise-cancelling-headphones/438
+439,Tech,Noise-Cancelling Headphones,Premium noise-cancelling headphones with silicone housing. up to 20h battery. low‑latency mode.,586.43,https://example.com/tech/noise-cancelling-headphones/439
+440,Fashion,Pleated Midi Skirt,Lightweight pleated midi skirt in beige suede. oversized. machine washable. Available in Medium.,188.76,https://example.com/fashion/pleated-midi-skirt/440
+441,Fashion,Wrap Skirt,Everyday wrap skirt in silver cashmere. relaxed fit. stretch panel at back. Available in S–L.,152.47,https://example.com/fashion/wrap-skirt/441
+442,Tech,E-Reader,Everyday e-reader with silicone housing. USB‑C charging. fold-flat hinges.,355.66,https://example.com/tech/e-reader/442
+443,Fashion,Leather Tote Bag,Compact leather tote bag in charcoal linen. slim fit. side zip. Available in S–L.,143.26,https://example.com/fashion/leather-tote-bag/443
+444,Home,Cookware Set,Versatile cookware set crafted from hand-blown glass in white. heat-resistant up to 450°F.,546.82,https://example.com/home/cookware-set/444
+445,Tech,Bluetooth Speaker,Elevated bluetooth speaker with nylon housing. fold-flat hinges. sleep mode after 10 min.,238.11,https://example.com/tech/bluetooth-speaker/445
+446,Fashion,Ballet Flats,Minimalist ballet flats in gold vegan leather. relaxed fit. machine washable. Available in 14-inch.,172.72,https://example.com/fashion/ballet-flats/446
+447,Home,Ceramic Vase,Minimalist ceramic vase crafted from rattan in navy. matte glaze.,106.21,https://example.com/home/ceramic-vase/447
+448,Tech,Gaming Mouse,Elevated gaming mouse with ABS housing. low‑latency mode. active noise cancellation.,500.93,https://example.com/tech/gaming-mouse/448
+449,Fashion,Corduroy Trousers,Everyday corduroy trousers in blush merino wool. tailored fit. side zip. Available in 14-inch.,227.43,https://example.com/fashion/corduroy-trousers/449
+450,Fashion,Athletic Leggings,Compact athletic leggings in rose denim. boxy cut. removable belt. Available in Medium.,237.13,https://example.com/fashion/athletic-leggings/450
+451,Home,Ceramic Vase,Everyday ceramic vase crafted from cast iron in cream. dishwasher safe.,309.36,https://example.com/home/ceramic-vase/451
+452,Home,Storage Basket,Lightweight storage basket crafted from oak wood in silver. modular design.,532.01,https://example.com/home/storage-basket/452
+453,Home,Glass Coffee Table,Compact glass coffee table crafted from walnut in white. soft-touch dimmer.,297.84,https://example.com/home/glass-coffee-table/453
+454,Tech,E-Reader,Elevated e-reader with nylon housing. USB‑C charging. Bluetooth 5.3.,92.98,https://example.com/tech/e-reader/454
+455,Fashion,Puffer Jacket,Compact puffer jacket in gold silk. relaxed fit. double-lined. Available in Small.,152.56,https://example.com/fashion/puffer-jacket/455
+456,Home,Aroma Diffuser,Everyday aroma diffuser crafted from cotton in sky blue. modular design.,263.16,https://example.com/home/aroma-diffuser/456
+457,Tech,Noise-Cancelling Headphones,Lightweight noise-cancelling headphones with aluminum housing. up to 20h battery. sleep mode after 10 min.,523.06,https://example.com/tech/noise-cancelling-headphones/457
+458,Tech,USB-C Charger,Minimalist usb-c charger with nylon housing. low‑latency mode. fold-flat hinges.,642.83,https://example.com/tech/usb-c-charger/458
+459,Tech,Portable Projector,Versatile portable projector with polycarbonate housing. active noise cancellation. fold-flat hinges.,218.09,https://example.com/tech/portable-projector/459
+460,Fashion,Linen Summer Dress,Versatile linen summer dress in cream organic cotton. tailored fit. contrast stitching. Available in 15-inch.,348.11,https://example.com/fashion/linen-summer-dress/460
+461,Home,Storage Basket,Minimalist storage basket crafted from oak wood in olive. dishwasher safe.,335.32,https://example.com/home/storage-basket/461
+462,Fashion,Wrap Skirt,Compact wrap skirt in gold cashmere. tailored fit. hidden interior pocket. Available in XS–XL.,36.25,https://example.com/fashion/wrap-skirt/462
+463,Fashion,Merino Crewneck,Travel‑Friendly merino crewneck in terracotta denim. relaxed fit. machine washable. Available in 14-inch.,152.4,https://example.com/fashion/merino-crewneck/463
+464,Tech,E-Reader,Lightweight e-reader with nylon housing. low‑latency mode. up to 20h battery.,577.86,https://example.com/tech/e-reader/464
+465,Fashion,Trench Coat,Elevated trench coat in olive cotton. slim fit. double-lined. Available in Large.,183.5,https://example.com/fashion/trench-coat/465
+466,Tech,4K Webcam,Elevated 4k webcam with aluminum housing. low‑latency mode. gesture controls.,630.61,https://example.com/tech/4k-webcam/466
+467,Tech,Portable Projector,Premium portable projector with ABS housing. sleep mode after 10 min. fold-flat hinges.,291.63,https://example.com/tech/portable-projector/467
+468,Fashion,Trench Coat,Everyday trench coat in terracotta vegan leather. slim fit. breathable weave. Available in Small.,211.01,https://example.com/fashion/trench-coat/468
+469,Home,Round Wall Mirror,Everyday round wall mirror crafted from stoneware in black. modular design.,206.53,https://example.com/home/round-wall-mirror/469
+470,Home,Round Wall Mirror,Travel‑Friendly round wall mirror crafted from cast iron in black. reversible.,176.85,https://example.com/home/round-wall-mirror/470
+471,Tech,Portable Projector,Everyday portable projector with silicone housing. multi‑device pairing. gesture controls.,45.2,https://example.com/tech/portable-projector/471
+472,Home,Hand-Tufted Wool Rug,Elevated hand-tufted wool rug crafted from walnut in olive. dishwasher safe.,366.33,https://example.com/home/hand-tufted-wool-rug/472
+473,Fashion,Ribbed Tank,Versatile ribbed tank in sky blue suede. oversized. hidden interior pocket. Available in 14-inch.,39.38,https://example.com/fashion/ribbed-tank/473
+474,Tech,Smartphone Stand,Versatile smartphone stand with silicone housing. low‑latency mode. gesture controls.,653.28,https://example.com/tech/smartphone-stand/474
+475,Tech,Bluetooth Speaker,Minimalist bluetooth speaker with nylon housing. Bluetooth 5.3. multi‑device pairing.,242.72,https://example.com/tech/bluetooth-speaker/475
+476,Tech,Laptop Sleeve,Travel‑Friendly laptop sleeve with silicone housing. Bluetooth 5.3. active noise cancellation.,651.71,https://example.com/tech/laptop-sleeve/476
+477,Home,Cast Iron Skillet,Minimalist cast iron skillet crafted from stoneware in sky blue. heat-resistant up to 450°F.,293.58,https://example.com/home/cast-iron-skillet/477
+478,Home,Cookware Set,Compact cookware set crafted from walnut in forest. dishwasher safe.,227.31,https://example.com/home/cookware-set/478
+479,Tech,E-Reader,Compact e-reader with ABS housing. sleep mode after 10 min. multi‑device pairing.,477.59,https://example.com/tech/e-reader/479
+480,Tech,Gaming Mouse,Lightweight gaming mouse with nylon housing. fold-flat hinges. sleep mode after 10 min.,205.39,https://example.com/tech/gaming-mouse/480
+481,Fashion,Puffer Jacket,Versatile puffer jacket in beige vegan leather. boxy cut. double-lined. Available in S–L.,81.08,https://example.com/fashion/puffer-jacket/481
+482,Home,Electric Kettle,Compact electric kettle crafted from stoneware in forest. fingerprint-resistant.,163.76,https://example.com/home/electric-kettle/482
+483,Home,Glass Coffee Table,Everyday glass coffee table crafted from wool in sand. reversible.,159.87,https://example.com/home/glass-coffee-table/483
+484,Home,Down Pillow,Everyday down pillow crafted from stoneware in blush. modular design.,329.54,https://example.com/home/down-pillow/484
+485,Fashion,Flowy Maxi Dress,Compact flowy maxi dress in rose organic cotton. relaxed fit. hidden interior pocket. Available in 14-inch.,283.2,https://example.com/fashion/flowy-maxi-dress/485
+486,Fashion,Athletic Leggings,Lightweight athletic leggings in gold denim. oversized. stretch panel at back. Available in Small.,265.86,https://example.com/fashion/athletic-leggings/486
+487,Tech,E-Reader,Travel‑Friendly e-reader with aluminum housing. up to 20h battery. Bluetooth 5.3.,617.14,https://example.com/tech/e-reader/487
+488,Tech,Fitness Tracker,Versatile fitness tracker with aluminum housing. multi‑device pairing. fold-flat hinges.,759.55,https://example.com/tech/fitness-tracker/488
+489,Home,Glass Coffee Table,Premium glass coffee table crafted from hand-blown glass in rose. reversible.,353.9,https://example.com/home/glass-coffee-table/489
+490,Fashion,Trench Coat,Travel‑Friendly trench coat in sky blue vegan leather. slim fit. removable belt. Available in Large.,344.45,https://example.com/fashion/trench-coat/490
+491,Fashion,Flowy Maxi Dress,Premium flowy maxi dress in sand denim. boxy cut. mother-of-pearl buttons. Available in S–L.,154.3,https://example.com/fashion/flowy-maxi-dress/491
+492,Home,LED Floor Lamp,Minimalist led floor lamp crafted from rattan in white. non-slip feet.,562.42,https://example.com/home/led-floor-lamp/492
+493,Home,Stoneware Dinner Plates,Premium stoneware dinner plates crafted from oak wood in forest. soft-touch dimmer.,595.09,https://example.com/home/stoneware-dinner-plates/493
+494,Tech,Gaming Mouse,Travel‑Friendly gaming mouse with silicone housing. fold-flat hinges. USB‑C charging.,159.63,https://example.com/tech/gaming-mouse/494
+495,Tech,E-Reader,Everyday e-reader with polycarbonate housing. sleep mode after 10 min. multi‑device pairing.,208.33,https://example.com/tech/e-reader/495
+496,Home,LED Floor Lamp,Everyday led floor lamp crafted from bamboo in olive. dishwasher safe.,204.44,https://example.com/home/led-floor-lamp/496
+497,Fashion,Wrap Skirt,Compact wrap skirt in olive cotton. oversized. stretch panel at back. Available in Large.,266.19,https://example.com/fashion/wrap-skirt/497
+498,Tech,Action Camera,Compact action camera with silicone housing. Bluetooth 5.3. up to 20h battery.,303.06,https://example.com/tech/action-camera/498
+499,Home,Hand-Tufted Wool Rug,Travel‑Friendly hand-tufted wool rug crafted from walnut in charcoal. matte glaze.,363.11,https://example.com/home/hand-tufted-wool-rug/499
+500,Fashion,Trench Coat,Travel‑Friendly trench coat in white organic cotton. boxy cut. hidden interior pocket. Available in Small.,255.1,https://example.com/fashion/trench-coat/500

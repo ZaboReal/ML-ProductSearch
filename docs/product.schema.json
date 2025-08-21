@@ -1,0 +1,52 @@
+{
+  "description": "Canonical product schema.",
+  "properties": {
+    "id": {
+      "description": "Unique product identifier",
+      "title": "Id",
+      "type": "integer"
+    },
+    "category": {
+      "description": "Top-level product category",
+      "title": "Category",
+      "type": "string"
+    },
+    "title": {
+      "description": "Product title or name",
+      "title": "Title",
+      "type": "string"
+    },
+    "description": {
+      "description": "Product description",
+      "title": "Description",
+      "type": "string"
+    },
+    "price": {
+      "description": "Product price (non-negative)",
+      "minimum": 0,
+      "title": "Price",
+      "type": "number"
+    },
+    "url": {
+      "description": "Product URL (HTTP/HTTPS)",
+      "format": "uri",
+      "maxLength": 2083,
+      "minLength": 1,
+      "title": "Url",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "category",
+    "title",
+    "description",
+    "price",
+    "url"
+  ],
+  "title": "Product",
+  "type": "object",
+  "$id": "https://example.com/schemas/product.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0"
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product Search</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Product Search</h1>
+      <form id="search-form">
+        <input id="query" type="text" placeholder="e.g. linen summer dress under $300" autocomplete="off" />
+        <button type="submit">Search</button>
+      </form>
+      <div id="error" class="hide"></div>
+      <ul id="results"></ul>
+    </div>
+
+    <script>
+      const form = document.getElementById('search-form');
+      const input = document.getElementById('query');
+      const list = document.getElementById('results');
+      const error = document.getElementById('error');
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        error.classList.add('hide');
+        list.innerHTML = '';
+        const q = input.value.trim();
+        if (!q) return;
+        try {
+          const res = await fetch(`/api/search?` + new URLSearchParams({ query: q, k: 5 }));
+          if (!res.ok) {
+            const t = await res.text();
+            throw new Error(t || 'Request failed');
+          }
+          const data = await res.json();
+          if (!data.results || data.results.length === 0) {
+            list.innerHTML = '<li class="empty">No results</li>';
+            return;
+          }
+          const items = data.results.map(r => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = r.url;
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+            a.className = 'result-link';
+
+            const title = document.createElement('span');
+            title.className = 'title';
+            title.textContent = r.title || '(untitled)';
+
+            const price = document.createElement('span');
+            price.className = 'price';
+            price.textContent = r.price != null ? `$${Number(r.price).toFixed(2)}` : '';
+
+            a.appendChild(title);
+            a.appendChild(price);
+            li.appendChild(a);
+            return li;
+          });
+          items.forEach(li => list.appendChild(li));
+        } catch (err) {
+          error.textContent = err.message || String(err);
+          error.classList.remove('hide');
+        }
+      });
+    </script>
+  </body>
+  </html>
+
+

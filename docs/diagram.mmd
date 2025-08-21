@@ -1,0 +1,19 @@
+graph TD
+
+    CSV["products.csv"] --> ING["Ingest + Normalize"]
+    SCHEMA["Schema|schemas.py + product.schema.json"] --> ING
+
+    ING --> EMB["Sentence Transformers\nall-MiniLM-L6-v2, 384-d"]
+    EMB --> STORE{Vector Store}
+    STORE --> PIN["Pinecone (serverless)  cosine, 384-d"]
+    STORE --> MEM["In-Memory"]
+
+    Q["User Query"] --> QE["Embed Query"]
+    QE --> SEARCH["Vector Search"]
+    PIN --> SEARCH
+    MEM --> SEARCH
+    SEARCH --> RSLT["Top-K Results
+    (title, price, url)"]
+    RSLT --> WEB["Web/API"]
+
+    ENV["PINECONE_* env"] --> PIN
