@@ -6,6 +6,10 @@ from typing import List, Dict, Any, Optional
 import os
 import pickle
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -107,15 +111,42 @@ class ProductEmbedder:
     def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
         self.embedding_generator = EmbeddingGenerator(model_name)
         self.vector_db = None
-        self.use_pinecone = False
+        self.backend_type = os.getenv("VECTOR_BACKEND", "pgvector").lower()
+        
+        # Initialize the appropriate vector store based on environment variable
+        if self.backend_type == "pinecone":
+            self._init_pinecone()
+        elif self.backend_type == "pgvector":
+            self._init_pgvector()
+        elif self.backend_type == "memory":
+            self.vector_db = VectorDatabase()
+            logger.info("Using in-memory vector store")
+        else:
+            logger.warning(f"Unknown VECTOR_BACKEND '{self.backend_type}', falling back to in-memory store")
+            self.vector_db = VectorDatabase()
+            self.backend_type = "memory"
+    
+    def _init_pinecone(self):
+        """Initialize Pinecone vector store"""
         try:
             from pinecone_store import PineconeVectorStore
             self.vector_db = PineconeVectorStore(dimension=384, metric="cosine")
-            self.use_pinecone = True
             logger.info("Using Pinecone vector store")
         except Exception as e:
             logger.warning(f"Pinecone not available, falling back to in-memory store: {e}")
             self.vector_db = VectorDatabase()
+            self.backend_type = "memory"
+    
+    def _init_pgvector(self):
+        """Initialize pgvector (PostgreSQL) vector store"""
+        try:
+            from pgvector_store import PgVectorStore
+            self.vector_db = PgVectorStore(dimension=384)
+            logger.info("Using pgvector (PostgreSQL) vector store")
+        except Exception as e:
+            logger.warning(f"pgvector not available, falling back to in-memory store: {e}")
+            self.vector_db = VectorDatabase()
+            self.backend_type = "memory"
     
     def create_product_texts(self, df: pd.DataFrame) -> List[str]:
         required_cols = {"title", "description", "category"}
@@ -139,16 +170,14 @@ class ProductEmbedder:
         metadata = df[["id", "category", "title", "description", "price", "url"]].to_dict('records')
         ids = df['id'].tolist()
         
-        if self.use_pinecone:
-            self.vector_db.add_embeddings(embeddings, metadata, ids)
-        else:
-            self.vector_db.add_embeddings(embeddings, metadata, ids)
+        # Add embeddings to the vector store
+        self.vector_db.add_embeddings(embeddings, metadata, ids)
         
         return self.vector_db
     
     def save_embeddings(self, filepath: str = "data/product_embeddings.pkl"):
-        if self.use_pinecone:
-            logger.info("Pinecone in use; skipping local pickle save.")
+        if self.backend_type in ["pinecone", "pgvector"]:
+            logger.info(f"{self.backend_type} in use; skipping local pickle save.")
             return
         if hasattr(self.vector_db, "save"):
             self.vector_db.save(filepath)
@@ -156,8 +185,8 @@ class ProductEmbedder:
             logger.info("Active vector store does not support saving; skipping.")
     
     def load_embeddings(self, filepath: str = "data/product_embeddings.pkl"):
-        if self.use_pinecone:
-            logger.info("Pinecone in use; loading from pickle not applicable.")
+        if self.backend_type in ["pinecone", "pgvector"]:
+            logger.info(f"{self.backend_type} in use; loading from pickle not applicable.")
             return
         if hasattr(self.vector_db, "load"):
             self.vector_db.load(filepath)

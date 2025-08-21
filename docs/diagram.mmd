@@ -3,17 +3,20 @@ graph TD
     CSV["products.csv"] --> ING["Ingest + Normalize"]
     SCHEMA["Schema|schemas.py + product.schema.json"] --> ING
 
-    ING --> EMB["Sentence Transformers\nall-MiniLM-L6-v2, 384-d"]
-    EMB --> STORE{Vector Store}
-    STORE --> PIN["Pinecone (serverless)  cosine, 384-d"]
-    STORE --> MEM["In-Memory"]
+    ING --> EMB["Sentence Transformers<br/>all-MiniLM-L6-v2, 384-d"]
+    EMB --> STORE{Vector Store<br/>VECTOR_BACKEND}
+    STORE --> PG["pgvector (PostgreSQL)<br/>default, cosine, 384-d"]
+    STORE --> PIN["Pinecone (serverless)<br/>cosine, 384-d"]
+    STORE --> MEM["In-Memory<br/>fallback"]
 
     Q["User Query"] --> QE["Embed Query"]
     QE --> SEARCH["Vector Search"]
+    PG --> SEARCH
     PIN --> SEARCH
     MEM --> SEARCH
-    SEARCH --> RSLT["Top-K Results
-    (title, price, url)"]
+    SEARCH --> RSLT["Top-K Results<br/>(title, price, url)"]
     RSLT --> WEB["Web/API"]
 
-    ENV["PINECONE_* env"] --> PIN
+    ENV_PG["POSTGRES_* env"] --> PG
+    ENV_PIN["PINECONE_* env"] --> PIN
+    DOCKER["Docker Compose<br/>PostgreSQL + pgvector"] --> PG

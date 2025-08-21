@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 
 class ProductSearcher:
-    def __init__(self, vector_db: Optional[VectorDatabase] = None, 
+    def __init__(self, vector_db = None, 
                  embedding_generator: Optional[EmbeddingGenerator] = None):
         self.vector_db = vector_db
         self.embedding_generator = embedding_generator or EmbeddingGenerator("sentence-transformers/all-MiniLM-L6-v2")
@@ -101,6 +101,7 @@ class ProductSearcher:
         for r in top:
             md = r['metadata']
             formatted.append({
+                'id': r.get('id'),
                 'title': md.get('title'),
                 'price': md.get('price'),
                 'url': md.get('url')
@@ -112,7 +113,11 @@ class ProductSearcher:
             raise ValueError("Vector database not initialized")
         
         category_embedding = self.embedding_generator.generate_single_embedding(category)
-        results = self.vector_db.search(category_embedding, top_k=len(self.vector_db.embeddings))
+        # Get more results to filter by category
+        search_limit = 100 if hasattr(self.vector_db, 'embeddings') else top_k * 5
+        if hasattr(self.vector_db, 'embeddings'):
+            search_limit = len(self.vector_db.embeddings)
+        results = self.vector_db.search(category_embedding, top_k=search_limit)
         category_results = [
             result for result in results
             if str(result['metadata'].get('category', '')).lower() == category.lower()
@@ -127,23 +132,37 @@ class ProductSearcher:
         if not self.vector_db:
             raise ValueError("Vector database not initialized")
         
-        price_filtered = [
-            (i, metadata) for i, metadata in enumerate(self.vector_db.metadata)
-            if isinstance(metadata.get('price'), (int, float)) and min_price <= metadata['price'] <= max_price
-        ]
-        
-        if not price_filtered:
-            return []
-        
-        price_filtered.sort(key=lambda x: x[1]['price'])
-        
-        results = []
-        for i, metadata in price_filtered[:top_k]:
-            results.append({
-                'id': self.vector_db.ids[i],
-                'metadata': metadata,
-                'similarity': 1.0
-            })
+        # For in-memory database, use direct metadata access
+        if hasattr(self.vector_db, 'metadata'):
+            price_filtered = [
+                (i, metadata) for i, metadata in enumerate(self.vector_db.metadata)
+                if isinstance(metadata.get('price'), (int, float)) and min_price <= metadata['price'] <= max_price
+            ]
+            
+            if not price_filtered:
+                return []
+            
+            price_filtered.sort(key=lambda x: x[1]['price'])
+            
+            results = []
+            for i, metadata in price_filtered[:top_k]:
+                results.append({
+                    'id': self.vector_db.ids[i],
+                    'metadata': metadata,
+                    'similarity': 1.0
+                })
+        else:
+            # For external databases (Pinecone, pgvector), do a general search and filter
+            # This is less efficient but works with any vector store
+            general_query = f"products between ${min_price} and ${max_price}"
+            query_embedding = self.embedding_generator.generate_single_embedding(general_query)
+            all_results = self.vector_db.search(query_embedding, top_k=100)
+            
+            results = [
+                result for result in all_results
+                if isinstance(result['metadata'].get('price'), (int, float)) 
+                and min_price <= result['metadata']['price'] <= max_price
+            ][:top_k]
         
         logger.info(f"Price range search completed. Found {len(results)} results for price range: ${min_price}-${max_price}")
         
@@ -153,17 +172,26 @@ class ProductSearcher:
         if not self.vector_db:
             raise ValueError("Vector database not initialized")
         
-        try:
-            product_idx = self.vector_db.ids.index(product_id)
-        except ValueError:
-            logger.error(f"Product with ID {product_id} not found")
-            return []
+        # For in-memory database, use direct access
+        if hasattr(self.vector_db, 'ids') and hasattr(self.vector_db, 'embeddings'):
+            try:
+                product_idx = self.vector_db.ids.index(product_id)
+            except ValueError:
+                logger.error(f"Product with ID {product_id} not found")
+                return []
+            
+            product_embedding = self.vector_db.embeddings[product_idx]
+            all_results = self.vector_db.search(product_embedding, top_k=len(self.vector_db.embeddings))
+        else:
+            # For external databases, search for similar products using a generic query
+            # This is less ideal but works as a fallback
+            similarity_query = f"product similar to ID {product_id}"
+            query_embedding = self.embedding_generator.generate_single_embedding(similarity_query)
+            all_results = self.vector_db.search(query_embedding, top_k=top_k + 10)
         
-        product_embedding = self.vector_db.embeddings[product_idx]
-        all_results = self.vector_db.search(product_embedding, top_k=len(self.vector_db.embeddings))
         recommendations = [
             result for result in all_results
-            if result['id'] != product_id
+            if str(result['id']) != str(product_id)
         ][:top_k]
         
         logger.info(f"Generated {len(recommendations)} recommendations for product {product_id}")
@@ -209,10 +237,24 @@ class SearchAPI:
         if not self.searcher.vector_db:
             return None
         
-        try:
-            product_idx = self.searcher.vector_db.ids.index(product_id)
-            return self.searcher.vector_db.metadata[product_idx]
-        except ValueError:
+        # For in-memory database, use direct access
+        if hasattr(self.searcher.vector_db, 'ids') and hasattr(self.searcher.vector_db, 'metadata'):
+            try:
+                product_idx = self.searcher.vector_db.ids.index(product_id)
+                return self.searcher.vector_db.metadata[product_idx]
+            except ValueError:
+                return None
+        else:
+            # For external databases, search for the specific product
+            # This is less efficient but works as a fallback
+            product_query = f"product ID {product_id}"
+            query_embedding = self.searcher.embedding_generator.generate_single_embedding(product_query)
+            results = self.searcher.vector_db.search(query_embedding, top_k=10)
+            
+            # Look for exact product ID match
+            for result in results:
+                if str(result['id']) == str(product_id):
+                    return result['metadata']
             return None
 
 
@@ -223,7 +265,7 @@ def main():
 
     embedder = ProductEmbedder()
 
-    if not getattr(embedder, 'use_pinecone', False):
+    if embedder.backend_type == "memory":
         ingester = DataIngester()
         products_df = ingester.load_products()
         clean_df = ingester.preprocess_data(products_df)

@@ -16,9 +16,10 @@
 
 #### Embedding Generation (`embed_and_load.py`)
 - **EmbeddingGenerator**: Uses Sentence Transformers (`sentence-transformers/all-MiniLM-L6-v2`, 384-d, cosine) to generate text embeddings
-- **Vector Store**:
-  - Primary: Pinecone serverless index (`dense`, `cosine`, `dimension=384`)
-  - Fallback: In-memory vector database (local only)
+- **Vector Store** (configurable via `VECTOR_BACKEND` environment variable):
+  - **pgvector** (default): PostgreSQL with pgvector extension (`dimension=384`, `cosine`)
+  - **pinecone**: Pinecone serverless index (`dense`, `cosine`, `dimension=384`)
+  - **memory**: In-memory vector database (fallback, local only)
 - **ProductEmbedder**: Orchestrates embedding generation and upserts to the active vector store
 
 #### Search Engine (`search.py`)
