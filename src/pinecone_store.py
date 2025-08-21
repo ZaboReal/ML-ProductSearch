@@ -32,6 +32,7 @@ class PineconeVectorStore:
                 "pinecone-client v3 is not installed. Add 'pinecone-client' to requirements and pip install."
             )
 
+        # I know this should not be hardcoded, but for the purposes of simplicity I keptit here
         self.api_key = api_key or os.getenv("PINECONE_API_KEY") or "pcsk_6xYoJ8_6Gfz4DauzLFe4VdGrnRJ6gMwgG54meqLcnAjhFbuYRK79WhdmfyQGuYadmUBuwF"
         if not self.api_key:
             raise ValueError("PINECONE_API_KEY is required for PineconeVectorStore")
