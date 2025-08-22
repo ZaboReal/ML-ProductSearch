@@ -7,8 +7,6 @@ import os
 import pickle
 from pathlib import Path
 from dotenv import load_dotenv
-
-# Load environment variables
 load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
@@ -127,7 +125,6 @@ class ProductEmbedder:
             self.backend_type = "memory"
     
     def _init_pinecone(self):
-        """Initialize Pinecone vector store"""
         try:
             from pinecone_store import PineconeVectorStore
             self.vector_db = PineconeVectorStore(dimension=384, metric="cosine")
@@ -138,7 +135,6 @@ class ProductEmbedder:
             self.backend_type = "memory"
     
     def _init_pgvector(self):
-        """Initialize pgvector (PostgreSQL) vector store"""
         try:
             from pgvector_store import PgVectorStore
             self.vector_db = PgVectorStore(dimension=384)

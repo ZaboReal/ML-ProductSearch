@@ -1,26 +1,20 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-# Move to project root
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
 
-# Load environment variables if .env exists
 if [[ -f ".env" ]]; then
   export $(cat .env | grep -v '^#' | xargs)
 fi
 
-# Default to pgvector if VECTOR_BACKEND is not set
 export VECTOR_BACKEND="${VECTOR_BACKEND:-pgvector}"
 
 echo "Using vector backend: $VECTOR_BACKEND"
 
-# Use hardcoded python
 PYTHON_BIN="python"
 
-# Check if we need Docker for pgvector
 if [[ "$VECTOR_BACKEND" == "pgvector" ]]; then
-  # Check if Docker is available
   if ! command -v docker-compose >/dev/null 2>&1 && ! command -v docker >/dev/null 2>&1; then
     echo "ERROR: pgvector backend requires Docker/Docker Compose but neither is available"
     echo "Please install Docker or set VECTOR_BACKEND=pinecone in your .env file"
@@ -29,7 +23,6 @@ if [[ "$VECTOR_BACKEND" == "pgvector" ]]; then
   
   echo "[0/5] Setting up PostgreSQL with pgvector..."
   
-  # Stop any existing container to avoid conflicts
   if command -v docker-compose >/dev/null 2>&1; then
     docker-compose down postgres 2>/dev/null || true
     docker-compose up -d postgres
@@ -38,14 +31,11 @@ if [[ "$VECTOR_BACKEND" == "pgvector" ]]; then
     docker compose up -d postgres
   fi
   
-  # Wait for PostgreSQL container to be ready
   echo "Waiting for PostgreSQL container to be ready..."
   max_attempts=30
   attempt=0
   while [ $attempt -lt $max_attempts ]; do
-    # Check if container is running and healthy
     if docker ps --filter "name=hinthint_postgres" --filter "status=running" | grep -q hinthint_postgres; then
-      # Try to connect to the database
       if PGPASSWORD=postgres psql -h localhost -p 5433 -U postgres -d hinthint -c "SELECT 1;" >/dev/null 2>&1; then
         echo "PostgreSQL is ready!"
         break
@@ -71,9 +61,7 @@ if [[ "$VECTOR_BACKEND" == "pgvector" ]]; then
   fi
 fi
 
-# Activate venv if present
 if [[ -d ".venv" ]]; then
-  # shellcheck disable=SC1091
   source .venv/bin/activate || true
 fi
 

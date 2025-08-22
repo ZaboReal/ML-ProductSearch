@@ -7,7 +7,47 @@
 | Pinecone  | 76.84    | 149.66   |
 | pgvector  | 15.98    | 46.37    |
 
+### Precision@5 (manual)
+
+To be honest, manual judging will inevitably result in some sort of bias (although bias is not necessarily a bad thing depending on user intent and practices, i.e is he frugal, brand based, quality etc). But looking at pgvector that I implemented and pinecone, there is only ONE difference between them and that is query 2 result 5 where pinecone determined the best to be athletic leggings and pgvector decided the best to be chelsea boots. Which is better? I think it would differ based on who you ask. So in terms of relevnecy I would say both are pretty spot on based on strictly what the query asked. [for harshness, ill manually evaluate things that are semi relvent as nill, for example for wireless earbuds, the result laptop sleeve and bluetooth speaker are maybe relevent based on tech, but for this purposes ill treat them as not] [also both versions take into price as the source of truth, in actuality we would a more nuaunced approach, maybe more 70-30 split between price and and relevent info]
+
+| Query                                | Pinecone P@5 | pgvector P@5 |
+|--------------------------------------|--------------|---------------|
+| linen summer dress under $300        | 5/5          | 5/5           |
+| running shoes under $120             | 3/5          | 4/5           |
+| wireless earbuds under $80           | 3/5          | 3/5           |
+| coffee maker under $100              | 2/5          | 2/5           |
+| gaming mouse                         | 5/5          | 5/5           |
+| 4k tv under $600                     | 5/5          | 5/5           |
+| winter jacket                        | 5/5          | 5/5           |
+| yoga mat under $30                   | ☐/5    NA      | ☐/5    NA        |
+| portable bluetooth speaker           | 5/5          | 5/5           |
+| office chair ergonomic under $200    | 2/5          | 2/5           |
+
+
 ---
+
+### Reflections and Improvements
+
+- Retrieval quality:
+  - Tune IVFFlat parameters per dataset size (increase `PGVECTOR_LISTS`, `PGVECTOR_PROBES`);
+  - Push hard filters (price/category) into SQL where possible to avoid post‑filter loss.
+
+- reranking:
+  - Calibrate dense vs BM25 weight, maybe try adaptive weighting by query length.
+  - Add a cross‑encoder reranker.
+
+- Embeddings:
+  - Try domain-tuned or larger models
+  - Normalize and truncate long descriptions
+  - add synonyms/keyword expansion for sparse signals.
+
+- Data and filtering:
+  - Enforce price/type validation during ingest
+  - Store price as a real column alongside JSONB.
+
+- Evaluation:
+  - maybe add nDCG@5 and Recall@10.
 
 ### Pinecone
 
@@ -150,3 +190,4 @@ Latency (ms): avg=76.84, p95=149.66
   5. [52] Foldable Phone Stand $49.98
 
 Latency (ms): avg=15.98, p95=46.37
+

@@ -74,9 +74,7 @@ class DataIngester:
         df_clean = df_clean.drop_duplicates(subset=["id"], keep="first")
         after = len(df_clean)
 
-        logger.info(
-            f"Preprocessing completed. Cleaned {len(df)} -> {len(df_clean)} rows (removed {before - after} duplicate IDs)"
-        )
+        logger.info(f"Preprocessing completed. Cleaned {len(df)} -> {len(df_clean)} rows (removed {before - after} duplicate IDs)")
 
         df_clean = df_clean[REQUIRED_PRODUCT_COLUMNS]
 

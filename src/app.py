@@ -16,13 +16,11 @@ def on_startup() -> None:
         return
     embedder = ProductEmbedder()
     if embedder.backend_type == "memory":
-        # Only load and embed for in-memory store
         ingester = DataIngester()
         df = ingester.load_products()
         df = ingester.preprocess_data(df)
         vector_store = embedder.embed_products(df)
     else:
-        # For pinecone and pgvector, the data should already be loaded
         vector_store = embedder.vector_db
 
     app.state.searcher = ProductSearcher(vector_store)

@@ -58,7 +58,6 @@ The in-house app will deploy the search, so that it mimics an actual user search
 - Fitness Tracker ($649.62) → https://example.com/tech/fitness-tracker/167
 - Mechanical Keyboard ($649.22) → https://example.com/tech/mechanical-keyboard/68
 
-Can even do joined queries like "clothes over 50 but under 100"
 
 ### (Optional) How I’d extend this to production
 

@@ -13,35 +13,21 @@ The system now supports multiple vector backends:
 - **pinecone**: Pinecone cloud vector database
 - **memory**: In-memory vector storage (fallback)
 
-### Configuration
-
-Set the vector backend using the `VECTOR_BACKEND` environment variable:
-
-```bash
-# Use pgvector (default)
-export VECTOR_BACKEND=pgvector
-
-# Use Pinecone (requires API key)
-export VECTOR_BACKEND=pinecone
-
-# Use in-memory (no persistence)
-export VECTOR_BACKEND=memory
-```
 
 ### Environment Variables
 
-Create a `.env` file in the project root:
+Create a `.env` file in the project root (it is added to github here for project sake):
 
 ```env
 # Vector backend selection
-VECTOR_BACKEND=pgvector
+VECTOR_BACKEND=pgvector (or pinecone or memory) [IF KEPT EMPTY IT WILL DEFAULT TO pgvector]
 
 # PostgreSQL configuration (for pgvector)
 POSTGRES_HOST=localhost
-POSTGRES_PORT=5433
+POSTGRES_PORT=5432
 POSTGRES_DB=hinthint
 POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
+POSTGRES_PASSWORD=postgres [IMPORTANT: your password must match the password set for username at port 5432]
 
 ```
 
@@ -50,9 +36,10 @@ POSTGRES_PASSWORD=postgres
 ### Prerequisites
 - Python 3.10+
 - pip
-- Docker & Docker Compose (for pgvector backend)
+- Docker 
+- postgresql (you must also have pgvector cloned and installed: see https://github.com/pgvector/pgvector for setup if not installed )
 
-### Option A: One‑liner (bash)
+### Option A: One‑liner (bash) [RECOMMENDED]
 ```bash
 ./scripts/run_all.sh
 # then open http://127.0.0.1:8000
@@ -106,20 +93,30 @@ Python directly:
 ```bash
 python scripts/eval_harness.py
 ```
-- Runs ~10 test queries against each available backend (`memory`, `pgvector`, and `pinecone` if API key present)
+- Runs ~10 test queries against each available backend
 - Logs top 5 per query with: ID, title, price
 - Prints latency stats (avg and P95)
 - Automatically starts and waits for pgvector Docker when needed
 
-## Docker Setup
+# Example pgvector query results
+- **Query: running shoes under $120**
+  1. [357] Classic Leather Sneakers $44.05
+  2. [189] Classic Leather Sneakers $69.41
+  3. [55] Classic Leather Sneakers $57.83
+  4. [50] Athletic Leggings $109.21
+  5. [30] Chelsea Boots $40.46
 
-The system includes a Docker Compose configuration for easy PostgreSQL setup:
+- **Query: wireless earbuds under $80**
+  1. [266] Wireless Earbuds $33.80
+  2. [147] Noise-Cancelling Headphones $65.14
+  3. [159] Noise-Cancelling Headphones $31.25
+  4. [340] Laptop Sleeve $43.53
+  5. [436] Bluetooth Speaker $64.24
 
-```bash
-# Start PostgreSQL with pgvector
-docker-compose up -d
-
-# Stop PostgreSQL
-docker-compose down
-```
+- **Query: office chair ergonomic under $200**
+  1. [301] Dining Chair $123.80
+  2. [379] Dining Chair $155.49
+  3. [434] Portable Projector $119.96
+  4. [350] Mechanical Keyboard $184.03
+  5. [52] Foldable Phone Stand $49.98
 

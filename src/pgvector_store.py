@@ -67,15 +67,13 @@ class PgVectorStore:
         self._ensure_database_setup()
     
     def _ensure_database_setup(self) -> None:
-        """Ensure the database has pgvector extension and required table"""
+        
         try:
             # Enable pgvector extension
             with self.engine.connect() as conn:
-                # Use text() for raw SQL execution
                 conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector;"))
                 conn.commit()
                 
-                # Create table if it doesn't exist
                 create_table_sql = f"""
                 CREATE TABLE IF NOT EXISTS {self.table_name} (
                     id INTEGER PRIMARY KEY,
@@ -87,7 +85,6 @@ class PgVectorStore:
                 conn.execute(text(create_table_sql))
                 conn.commit()
                 
-                # Create index on embedding for faster search
                 if self.index_type == "hnsw":
                     index_sql = f"""
                     CREATE INDEX IF NOT EXISTS {self.table_name}_embedding_hnsw 
@@ -102,7 +99,6 @@ class PgVectorStore:
                 conn.execute(text(index_sql))
                 conn.commit()
 
-                # Update planner statistics
                 conn.execute(text(f"ANALYZE {self.table_name};"))
                 conn.commit()
                 
@@ -119,17 +115,15 @@ class PgVectorStore:
         ids: List[Any],
         batch_size: int = 100,
     ) -> None:
-        """Add embeddings to the vector store"""
+        
         if len(embeddings) != len(metadata) or len(embeddings) != len(ids):
             raise ValueError("Lengths of embeddings, metadata, and ids must match")
         
         try:
-            # Clear existing data first (for fresh loading)
             with self.engine.connect() as conn:
                 conn.execute(text(f"DELETE FROM {self.table_name}"))
                 conn.commit()
             
-            # Prepare data for insertion
             data_to_insert = []
             for emb, md, id_val in zip(embeddings, metadata, ids):
                 data_to_insert.append({
@@ -138,12 +132,10 @@ class PgVectorStore:
                     'metadata': json.dumps(md)  # Convert dict to JSON string
                 })
             
-            # Insert in batches
             for i in range(0, len(data_to_insert), batch_size):
                 batch = data_to_insert[i:i + batch_size]
                 
                 with self.engine.connect() as conn:
-                    # Use raw SQL for insertion with pgvector
                     for item in batch:
                         insert_sql = """
                         INSERT INTO {} (id, embedding, metadata) 
@@ -173,12 +165,10 @@ class PgVectorStore:
         top_k: int = 5,
         filter: Optional[Dict[str, Any]] = None,
     ) -> List[Dict[str, Any]]:
-        """Search for similar embeddings using cosine similarity"""
+        
         try:
-            # Convert numpy array to list for SQL
             query_vector = query_embedding.tolist()
             
-            # Build the search query
             search_sql = """
             SELECT 
                 id,
@@ -189,15 +179,12 @@ class PgVectorStore:
             LIMIT :top_k
             """.format(self.table_name)
             
-            # Execute search
             with self.engine.connect() as conn:
-                # optionally set probes for ivfflat to improve recall
                 if self.index_type == "ivfflat":
                     try:
                         conn.execute(text("SET LOCAL ivfflat.probes = :p"), {"p": self.ivf_probes})
                     except Exception:
                         pass
-                # optionally force exact scan (disable index scans)
                 if self.exact_mode:
                     try:
                         conn.execute(text("SET LOCAL enable_indexscan = off"))
@@ -214,7 +201,6 @@ class PgVectorStore:
                 )
                 rows = result.fetchall()
             
-            # Format results
             results = []
             for row in rows:
                 md_raw = row[1]
