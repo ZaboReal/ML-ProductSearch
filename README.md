@@ -1,6 +1,4 @@
 
-# HintHint Product Search
-
 A semantic product search system with support for multiple vector backends.
 
 The writeups/diagram/architecture are all under docs folder
