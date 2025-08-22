@@ -45,6 +45,7 @@ To be honest, manual judging will inevitably result in some sort of bias (althou
 - Data and filtering:
   - Enforce price/type validation during ingest
   - Store price as a real column alongside JSONB.
+  - add multi filter query funcationlity (does work to some extentbut needs tobe more refined)
 
 - Evaluation:
   - maybe add nDCG@5 and Recall@10.
